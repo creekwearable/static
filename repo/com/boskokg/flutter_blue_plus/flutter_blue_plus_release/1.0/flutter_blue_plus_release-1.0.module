@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boskokg.flutter_blue_plus",
+    "module": "flutter_blue_plus_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-2a3401c9bbb5a9a9aec74d4f735d18a9dd3ebf2d"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_blue_plus_release-1.0.aar",
+          "url": "flutter_blue_plus_release-1.0.aar",
+          "size": 200457,
+          "sha512": "c0aea05086daf91353ba6aac4562d06ab719fc0bb570382bc1c592a5c4f9b397652868fa9cd08293b296702f313bd2634857f1d1b4394bb4ac1a1ade75b4a67a",
+          "sha256": "1c578480e2f3e3246c6531e7e72cfa7694e6a4082cade8182c750c4803b1cc71",
+          "sha1": "790da2902475cc4705d1ef6071d043d23c66604f",
+          "md5": "e79f586c207d2cd6b3826d4ba48359fd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-2a3401c9bbb5a9a9aec74d4f735d18a9dd3ebf2d"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "3.18.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_blue_plus_release-1.0.aar",
+          "url": "flutter_blue_plus_release-1.0.aar",
+          "size": 200457,
+          "sha512": "c0aea05086daf91353ba6aac4562d06ab719fc0bb570382bc1c592a5c4f9b397652868fa9cd08293b296702f313bd2634857f1d1b4394bb4ac1a1ade75b4a67a",
+          "sha256": "1c578480e2f3e3246c6531e7e72cfa7694e6a4082cade8182c750c4803b1cc71",
+          "sha1": "790da2902475cc4705d1ef6071d043d23c66604f",
+          "md5": "e79f586c207d2cd6b3826d4ba48359fd"
+        }
+      ]
+    }
+  ]
+}
