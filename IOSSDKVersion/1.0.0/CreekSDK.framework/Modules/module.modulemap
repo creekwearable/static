@@ -1,4 +1,0 @@
-framework module CreekSDK {
-  header "CreekSDK-Swift.h"
-  requires objc
-}
