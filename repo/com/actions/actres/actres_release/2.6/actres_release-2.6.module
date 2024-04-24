@@ -42,11 +42,11 @@
         {
           "name": "actres_release-2.6.aar",
           "url": "actres_release-2.6.aar",
-          "size": 1260681,
-          "sha512": "8aa6227e8b01f822c6ae396e4baa9d6ace72695c14d65858a5ff28bedd4e6b6e3d95563f6ae618daca52ca01a1a176d8de870fea64759f2ec9286f3f9f179225",
-          "sha256": "aff6da53bf4f4979a1e44722a16c2483495738d1ee39a9fbeac2b475cdcc704b",
-          "sha1": "afece66e41708f38487a18ae2f14f8e677d1f7c6",
-          "md5": "d305808fe35f556c738845365641c30f"
+          "size": 1260711,
+          "sha512": "5abd10a30d6f5115ae86e9a2a62be8d2726f90fabbfead0be1596c135d0d280f860dbfc332b0394f335762041aa329e6886266bc32a45c2f9fe5a3570a1f1597",
+          "sha256": "eab4a6a3e89275acadff789de124986797feeef695ce09dbcb6d48792f7c3a3b",
+          "sha1": "23556a9c395536ec1bba8e2d9752d7c4b45edf92",
+          "md5": "1465d3efaa65a57c58ecbebb690dc071"
         }
       ]
     },
@@ -78,11 +78,11 @@
         {
           "name": "actres_release-2.6.aar",
           "url": "actres_release-2.6.aar",
-          "size": 1260681,
-          "sha512": "8aa6227e8b01f822c6ae396e4baa9d6ace72695c14d65858a5ff28bedd4e6b6e3d95563f6ae618daca52ca01a1a176d8de870fea64759f2ec9286f3f9f179225",
-          "sha256": "aff6da53bf4f4979a1e44722a16c2483495738d1ee39a9fbeac2b475cdcc704b",
-          "sha1": "afece66e41708f38487a18ae2f14f8e677d1f7c6",
-          "md5": "d305808fe35f556c738845365641c30f"
+          "size": 1260711,
+          "sha512": "5abd10a30d6f5115ae86e9a2a62be8d2726f90fabbfead0be1596c135d0d280f860dbfc332b0394f335762041aa329e6886266bc32a45c2f9fe5a3570a1f1597",
+          "sha256": "eab4a6a3e89275acadff789de124986797feeef695ce09dbcb6d48792f7c3a3b",
+          "sha1": "23556a9c395536ec1bba8e2d9752d7c4b45edf92",
+          "md5": "1465d3efaa65a57c58ecbebb690dc071"
         }
       ]
     }
