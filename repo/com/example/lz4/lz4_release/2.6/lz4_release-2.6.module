@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.lz4",
+    "module": "lz4_release",
+    "version": "2.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3f3e560236539b7e2702f5ac790b2a4691b32d49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lz4_release-2.6.aar",
+          "url": "lz4_release-2.6.aar",
+          "size": 142693,
+          "sha512": "d751682105be585443f46cb645b75925dd021cc0141edcdbbeb649fc8e335a48eda80d11b911b409200a4628bc93daf1c39dc7884916ea97c6e90c58d34648dd",
+          "sha256": "c4f9b26bf675a68e02db2582ab99ecbb6a30433f24dfda5e3a77ce3c9b6fe7d3",
+          "sha1": "a7ceb3dbb121e9dc8ca1a260c8fe68a696ec2400",
+          "md5": "dad92d20c46e774d2336c797f6050524"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3f3e560236539b7e2702f5ac790b2a4691b32d49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lz4_release-2.6.aar",
+          "url": "lz4_release-2.6.aar",
+          "size": 142693,
+          "sha512": "d751682105be585443f46cb645b75925dd021cc0141edcdbbeb649fc8e335a48eda80d11b911b409200a4628bc93daf1c39dc7884916ea97c6e90c58d34648dd",
+          "sha256": "c4f9b26bf675a68e02db2582ab99ecbb6a30433f24dfda5e3a77ce3c9b6fe7d3",
+          "sha1": "a7ceb3dbb121e9dc8ca1a260c8fe68a696ec2400",
+          "md5": "dad92d20c46e774d2336c797f6050524"
+        }
+      ]
+    }
+  ]
+}
