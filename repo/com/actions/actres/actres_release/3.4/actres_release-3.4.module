@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.actions.actres",
+    "module": "actres_release",
+    "version": "3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actres_release-3.4.aar",
+          "url": "actres_release-3.4.aar",
+          "size": 1260712,
+          "sha512": "5f4d3fe087251c5657130eac397deeb9c6b4126b859e7ad226679c09fddbc82ec77582ea5d1b7d5736fe7448247544a7742734994b1c5160067ccedbdecb5e7a",
+          "sha256": "e2ada66a95299a485f670bb5b9f493dd5f9ab1b657c9ec84856d5ea5dc8cf678",
+          "sha1": "71377a97f0f47ee41b7dcab8ba486c361091bfc3",
+          "md5": "c96496db893ae92b2bc8c2be7401fa55"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actres_release-3.4.aar",
+          "url": "actres_release-3.4.aar",
+          "size": 1260712,
+          "sha512": "5f4d3fe087251c5657130eac397deeb9c6b4126b859e7ad226679c09fddbc82ec77582ea5d1b7d5736fe7448247544a7742734994b1c5160067ccedbdecb5e7a",
+          "sha256": "e2ada66a95299a485f670bb5b9f493dd5f9ab1b657c9ec84856d5ea5dc8cf678",
+          "sha1": "71377a97f0f47ee41b7dcab8ba486c361091bfc3",
+          "md5": "c96496db893ae92b2bc8c2be7401fa55"
+        }
+      ]
+    }
+  ]
+}
