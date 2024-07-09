@@ -3,8 +3,8 @@
   <groupId>co.quis.flutter_contacts</groupId>
   <artifactId>flutter_contacts_release</artifactId>
   <versioning>
-    <latest>4.1</latest>
-    <release>4.1</release>
+    <latest>4.3</latest>
+    <release>4.3</release>
     <versions>
       <version>2.8</version>
       <version>2.9</version>
@@ -20,7 +20,8 @@
       <version>3.9</version>
       <version>4.0</version>
       <version>4.1</version>
+      <version>4.3</version>
     </versions>
-    <lastUpdated>20240704023058</lastUpdated>
+    <lastUpdated>20240709101328</lastUpdated>
   </versioning>
 </metadata>
