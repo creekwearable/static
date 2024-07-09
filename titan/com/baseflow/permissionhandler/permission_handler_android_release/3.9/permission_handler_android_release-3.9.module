@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.baseflow.permissionhandler",
+    "module": "permission_handler_android_release",
+    "version": "3.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-edd8546116457bdf1c5bdfb13ecb9463d2bb5ed4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "permission_handler_android_release-3.9.aar",
+          "url": "permission_handler_android_release-3.9.aar",
+          "size": 28496,
+          "sha512": "3131fb903e2b08a59b419a6ff13855ca6c3e6a7e301ead7540b03d856d848ffebc0c43e63b8524cf963a2a2ce4bb91c1c23b8708ddf6fd8e41d44d65c11ddc47",
+          "sha256": "332b07d4457419d751176375e8c78d14ac5c0fdf26a43177ecc987f28c232102",
+          "sha1": "2f24c08a9a850ef103da13ce4b1ae20679a4c267",
+          "md5": "21c39cb0cb6a3a359b93c6804f9ebdd8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-edd8546116457bdf1c5bdfb13ecb9463d2bb5ed4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "permission_handler_android_release-3.9.aar",
+          "url": "permission_handler_android_release-3.9.aar",
+          "size": 28496,
+          "sha512": "3131fb903e2b08a59b419a6ff13855ca6c3e6a7e301ead7540b03d856d848ffebc0c43e63b8524cf963a2a2ce4bb91c1c23b8708ddf6fd8e41d44d65c11ddc47",
+          "sha256": "332b07d4457419d751176375e8c78d14ac5c0fdf26a43177ecc987f28c232102",
+          "sha1": "2f24c08a9a850ef103da13ce4b1ae20679a4c267",
+          "md5": "21c39cb0cb6a3a359b93c6804f9ebdd8"
+        }
+      ]
+    }
+  ]
+}
