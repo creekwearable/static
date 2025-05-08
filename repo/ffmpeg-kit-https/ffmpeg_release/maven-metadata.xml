@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ffmpeg-kit-https</groupId>
+  <artifactId>ffmpeg_release</artifactId>
+  <versioning>
+    <latest>1.0</latest>
+    <release>1.o</release>
+    <versions>
+      <version>1.0</version>
+    </versions>
+    <lastUpdated>20250508154749</lastUpdated>
+  </versioning>
+</metadata>
