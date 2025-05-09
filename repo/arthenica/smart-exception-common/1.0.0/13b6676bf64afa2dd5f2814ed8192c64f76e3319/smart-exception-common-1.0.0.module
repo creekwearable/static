@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.arthenica",
+    "module": "smart-exception-common",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "wzvsmp6hlzbsjjp6gyuss424fq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "smart-exception-common-0.2.1.jar",
+          "url": "smart-exception-common-0.2.1.jar",
+          "size": 11156,
+          "sha512": "d069383e85b0fbcacb334e6615f02742a621d566e2749c481922ddf20f9690cbc3ad7f56aacc47002a0da1cd33c35ae002013e932c6f03c7448782107c45cb51",
+          "sha256": "1cad0fb4dfa01755a014331b5ed199281d2c3fab5aca5c9d7abd0b41d0ec3f7b",
+          "sha1": "b8c705037c485302d1f331bc30e7b72f9642b0e1",
+          "md5": "343e0037996db12281dc6ae66af03167"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "smart-exception-common-0.2.1.jar",
+          "url": "smart-exception-common-0.2.1.jar",
+          "size": 11156,
+          "sha512": "d069383e85b0fbcacb334e6615f02742a621d566e2749c481922ddf20f9690cbc3ad7f56aacc47002a0da1cd33c35ae002013e932c6f03c7448782107c45cb51",
+          "sha256": "1cad0fb4dfa01755a014331b5ed199281d2c3fab5aca5c9d7abd0b41d0ec3f7b",
+          "sha1": "b8c705037c485302d1f331bc30e7b72f9642b0e1",
+          "md5": "343e0037996db12281dc6ae66af03167"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "smart-exception-common-0.2.1-sources.jar",
+          "url": "smart-exception-common-0.2.1-sources.jar",
+          "size": 13661,
+          "sha512": "7dafcd90080642660883b22362dcb4bf41ff5391b597ad25fecc1c03527e13753463137f9ff1073703b6d25ee632f80d342694c0c9a66f1fae2c2a2defb1af14",
+          "sha256": "dd1541b83d88a284fedf2db38d81b27ad43340a8c890b7414d63c81ec6a7e5b8",
+          "sha1": "88c38f3537d113ab1f33cd34d90e0b57228dc09f",
+          "md5": "7397bc47075c2187ab9cafdfa9148ca9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "smart-exception-common-0.2.1-javadoc.jar",
+          "url": "smart-exception-common-0.2.1-javadoc.jar",
+          "size": 367,
+          "sha512": "2ff513e1cb798b894e95c3d815edf46b9a93443c59808747df7cf048cf0431a8f25d653018e06539a5a4350ffe0807b52eb4438a3f6ebaf934d04048bae7138f",
+          "sha256": "1d014e143fddc1a931f6d4a1c99c59bfe8919a8eb87da9fec7f3d5a9ab7221d0",
+          "sha1": "8128d384c1107c834ffaeeaa7d4515f067c3e49c",
+          "md5": "30a2a24d0f804bc31069b0598ddefd9a"
+        }
+      ]
+    }
+  ]
+}
