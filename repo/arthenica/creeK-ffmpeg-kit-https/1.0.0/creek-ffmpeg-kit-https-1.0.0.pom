@@ -8,34 +8,14 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>arthenica</groupId>
-  <artifactId>ffmpeg-kit-https</artifactId>
+  <artifactId>creek-ffmpeg-kit-https</artifactId>
   <version>1.0.0</version>
   <packaging>aar</packaging>
-  <name>ffmpeg-kit-https</name>
-  <description>Includes FFmpeg with gmp and gnutls libraries enabled.</description>
-  <url>https://github.com/arthenica/ffmpeg-kit</url>
-  <licenses>
-    <license>
-      <name>GNU Lesser General Public License, Version 3</name>
-      <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
-    </license>
-  </licenses>
-  <developers>
-    <developer>
-      <id>arthenica</id>
-      <name>ARTHENICA</name>
-      <email>open-source@arthenica.com</email>
-    </developer>
-  </developers>
-  <scm>
-    <connection>https://github.com/arthenica/ffmpeg-kit.git</connection>
-    <developerConnection>https://github.com/arthenica/ffmpeg-kit.git</developerConnection>
-    <url>https://github.com/arthenica/ffmpeg-kit</url>
-  </scm>
+  <name>creek-ffmpeg-kit-https</name>
   <dependencies>
     <dependency>
       <groupId>arthenica</groupId>
-      <artifactId>smart-exception-java</artifactId>
+      <artifactId>creek-smart-exception-java</artifactId>
       <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>

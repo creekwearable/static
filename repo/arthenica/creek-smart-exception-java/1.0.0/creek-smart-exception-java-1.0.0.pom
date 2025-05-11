@@ -8,10 +8,10 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>arthenica</groupId>
-  <artifactId>smart-exception-common</artifactId>
+  <artifactId>creek-smart-exception-java</artifactId>
   <version>1.0.0</version>
-  <name>smart-exception-common</name>
-  <description>smart-exception common package</description>
+  <name>creek-smart-exception-java</name>
+  <description>smart-exception java and android package</description>
   <url>https://github.com/tanersener/smart-exception</url>
   <licenses>
     <license>
@@ -31,4 +31,12 @@
     <developerConnection>https://github.com/tanersener/smart-exception.git</developerConnection>
     <url>https://github.com/tanersener/smart-exception</url>
   </scm>
+  <dependencies>
+    <dependency>
+      <groupId>arthenica</groupId>
+      <artifactId>creek-smart-exception-common</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
 </project>
