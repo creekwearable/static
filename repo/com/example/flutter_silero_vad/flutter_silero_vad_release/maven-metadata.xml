@@ -3,11 +3,12 @@
   <groupId>com.example.flutter_silero_vad</groupId>
   <artifactId>flutter_silero_vad_release</artifactId>
   <versioning>
-    <latest>6.1</latest>
-    <release>6.1</release>
+    <latest>6.2</latest>
+    <release>6.2</release>
     <versions>
       <version>6.1</version>
+      <version>6.2</version>
     </versions>
-    <lastUpdated>20250607025355</lastUpdated>
+    <lastUpdated>20250607092403</lastUpdated>
   </versioning>
 </metadata>
