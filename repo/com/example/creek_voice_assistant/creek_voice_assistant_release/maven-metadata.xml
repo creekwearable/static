@@ -3,12 +3,13 @@
   <groupId>com.example.creek_voice_assistant</groupId>
   <artifactId>creek_voice_assistant_release</artifactId>
   <versioning>
-    <latest>6.2</latest>
-    <release>6.2</release>
+    <latest>6.3</latest>
+    <release>6.3</release>
     <versions>
       <version>6.1</version>
       <version>6.2</version>
+      <version>6.3</version>
     </versions>
-    <lastUpdated>20250607092347</lastUpdated>
+    <lastUpdated>20250612063851</lastUpdated>
   </versioning>
 </metadata>
