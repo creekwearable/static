@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.flutter_silero_vad",
+    "module": "flutter_silero_vad_release",
+    "version": "6.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_silero_vad_release-6.4.aar",
+          "url": "flutter_silero_vad_release-6.4.aar",
+          "size": 8145,
+          "sha512": "558f5736639dc3b1bf89ca7aeb4ea5c07911cbd9511816e3e10511d61d54a7e1eb5c55d33ea4ea58832a96b57994f06e90870703a0af57ca3b82ba086cf55bca",
+          "sha256": "b489a296c1e712c4f1b095c3a087a9af51f062953b6f7cbced2d8724c8530b64",
+          "sha1": "0b29e5f69e600394ec626265dbc25e152ae85a18",
+          "md5": "05af8e56a083c2ae4288cb8f803cd8fa"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.microsoft.onnxruntime",
+          "module": "onnxruntime-android",
+          "version": {
+            "requires": "1.13.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_silero_vad_release-6.4.aar",
+          "url": "flutter_silero_vad_release-6.4.aar",
+          "size": 8145,
+          "sha512": "558f5736639dc3b1bf89ca7aeb4ea5c07911cbd9511816e3e10511d61d54a7e1eb5c55d33ea4ea58832a96b57994f06e90870703a0af57ca3b82ba086cf55bca",
+          "sha256": "b489a296c1e712c4f1b095c3a087a9af51f062953b6f7cbced2d8724c8530b64",
+          "sha1": "0b29e5f69e600394ec626265dbc25e152ae85a18",
+          "md5": "05af8e56a083c2ae4288cb8f803cd8fa"
+        }
+      ]
+    }
+  ]
+}
