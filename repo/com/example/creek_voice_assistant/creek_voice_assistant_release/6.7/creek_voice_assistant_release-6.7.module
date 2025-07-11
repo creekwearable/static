@@ -42,11 +42,11 @@
         {
           "name": "creek_voice_assistant_release-6.7.aar",
           "url": "creek_voice_assistant_release-6.7.aar",
-          "size": 2794239,
-          "sha512": "354342ac30225aa1ff2c30375280dbc5e3350e30b28fabf05ad22045ab3b1f17d92ee5db0fb83ae3f5f96672cc2efe06d4d51a2d7f0dbb444549ec296e8fc4d2",
-          "sha256": "69314855e752848a86adfb5935a274e7cbfbc5dd99d60e6f4e7e83fd830b5504",
-          "sha1": "5970a2cc979d82eb012f4a5429e23fc25549b262",
-          "md5": "45ecf899d7ea8d247c2b16f7ff3117bf"
+          "size": 2804426,
+          "sha512": "9c97176e0db54760043b7c286cc2aed0ea13c70104c0ffa8c0f6f7fe61dcaca0b4a90018d51c9933d3afab3fc3d217f2e096ba5f971e0c1ba625247fa477d864",
+          "sha256": "14e175416fbd4aa2ec903e64cf3710e49868068c02aecf95189602b23254123e",
+          "sha1": "996987bfa11d9c7e3c2cc01fe8d7e93a590f0444",
+          "md5": "94ac08936710fc04cfc7a757c6b920f3"
         }
       ]
     },
@@ -155,11 +155,11 @@
         {
           "name": "creek_voice_assistant_release-6.7.aar",
           "url": "creek_voice_assistant_release-6.7.aar",
-          "size": 2794239,
-          "sha512": "354342ac30225aa1ff2c30375280dbc5e3350e30b28fabf05ad22045ab3b1f17d92ee5db0fb83ae3f5f96672cc2efe06d4d51a2d7f0dbb444549ec296e8fc4d2",
-          "sha256": "69314855e752848a86adfb5935a274e7cbfbc5dd99d60e6f4e7e83fd830b5504",
-          "sha1": "5970a2cc979d82eb012f4a5429e23fc25549b262",
-          "md5": "45ecf899d7ea8d247c2b16f7ff3117bf"
+          "size": 2804426,
+          "sha512": "9c97176e0db54760043b7c286cc2aed0ea13c70104c0ffa8c0f6f7fe61dcaca0b4a90018d51c9933d3afab3fc3d217f2e096ba5f971e0c1ba625247fa477d864",
+          "sha256": "14e175416fbd4aa2ec903e64cf3710e49868068c02aecf95189602b23254123e",
+          "sha1": "996987bfa11d9c7e3c2cc01fe8d7e93a590f0444",
+          "md5": "94ac08936710fc04cfc7a757c6b920f3"
         }
       ]
     }

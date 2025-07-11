@@ -115,6 +115,13 @@
           }
         },
         {
+          "group": "com.builttoroam.devicecalendar",
+          "module": "device_calendar_release",
+          "version": {
+            "requires": "6.7"
+          }
+        },
+        {
           "group": "io.flutter.plugins.deviceinfo",
           "module": "device_info_release",
           "version": {
@@ -224,11 +231,11 @@
         {
           "name": "flutter_release-6.7.aar",
           "url": "flutter_release-6.7.aar",
-          "size": 14680480,
-          "sha512": "1af14512eab62b205bd4dc762212b580cd7a8fdc4466b3a20bd37224ca19772e5b1a255af50205bf730d442cb942323ce77783261eb9ecc8fc3ddcfc00a9c642",
-          "sha256": "4afb2a38176b245f5bca21133298c440f33ebd2b6a7795f9ea2edef9ede33ff7",
-          "sha1": "5532e863f8f012b008f910d9aa4a6eb8d05c421a",
-          "md5": "92cf52aa22dceb86247a080b38a43a06"
+          "size": 15189401,
+          "sha512": "fbed2448bb7990fece6e261ff83465c7782c48c4d97d53ea74560ee59c39a892c213a859592c5a391dcb89431122b34a05e4e24c2b64c73debb6e13b07c8cb4e",
+          "sha256": "5318ada684542e66c50ecd5058473f7313a430022251e0d9313609709c103fe6",
+          "sha1": "67170339a1197fe419acdde287cf6c28c71180c8",
+          "md5": "77478c5579cbabaaf3a2522e56e99ac9"
         }
       ]
     },
@@ -333,6 +340,13 @@
           }
         },
         {
+          "group": "com.builttoroam.devicecalendar",
+          "module": "device_calendar_release",
+          "version": {
+            "requires": "6.7"
+          }
+        },
+        {
           "group": "io.flutter.plugins.deviceinfo",
           "module": "device_info_release",
           "version": {
@@ -442,11 +456,11 @@
         {
           "name": "flutter_release-6.7.aar",
           "url": "flutter_release-6.7.aar",
-          "size": 14680480,
-          "sha512": "1af14512eab62b205bd4dc762212b580cd7a8fdc4466b3a20bd37224ca19772e5b1a255af50205bf730d442cb942323ce77783261eb9ecc8fc3ddcfc00a9c642",
-          "sha256": "4afb2a38176b245f5bca21133298c440f33ebd2b6a7795f9ea2edef9ede33ff7",
-          "sha1": "5532e863f8f012b008f910d9aa4a6eb8d05c421a",
-          "md5": "92cf52aa22dceb86247a080b38a43a06"
+          "size": 15189401,
+          "sha512": "fbed2448bb7990fece6e261ff83465c7782c48c4d97d53ea74560ee59c39a892c213a859592c5a391dcb89431122b34a05e4e24c2b64c73debb6e13b07c8cb4e",
+          "sha256": "5318ada684542e66c50ecd5058473f7313a430022251e0d9313609709c103fe6",
+          "sha1": "67170339a1197fe419acdde287cf6c28c71180c8",
+          "md5": "77478c5579cbabaaf3a2522e56e99ac9"
         }
       ]
     }

@@ -42,11 +42,11 @@
         {
           "name": "creek_blue_manage_release-6.7.aar",
           "url": "creek_blue_manage_release-6.7.aar",
-          "size": 19415,
-          "sha512": "935e0eb8fc9dcf172323c594817986e78e351ffa07a4aeb50b284ba8d823b9c8544e5527e0f0386b119c137bdc7dbf3e8f547e35ff4c7547c011062f3de0bdc9",
-          "sha256": "238dd62ff94ba300ef1267a05e23082dc9f768a4ae970bf51f326a0c7c79ff38",
-          "sha1": "fb5bac0cfe99f9cb394a8ab917988a5e0464b70d",
-          "md5": "40dbce32f4aa2330343d536df0e9aff0"
+          "size": 29762,
+          "sha512": "77b5f1add5f09a56ef20fe7c1321493672b570eb2c17c480f270a821476af8735a50af4dd2bc313a7e0f19c8c242eff06db71a9270ace4d4c47d437fab5a7bdc",
+          "sha256": "66f2d0d2267b25d6c1eacc40adf4318f429b6f5d8b55b3d12c38e5e7256019ec",
+          "sha1": "a04ca869c730c3d5db9597e887ce738fa0077a23",
+          "md5": "fba236e0aaec2f3dbd8b3c78ca0f5546"
         }
       ]
     },
@@ -76,6 +76,13 @@
         {
           "group": "com.tekartik.sqflite",
           "module": "sqflite_release",
+          "version": {
+            "requires": "6.7"
+          }
+        },
+        {
+          "group": "com.builttoroam.devicecalendar",
+          "module": "device_calendar_release",
           "version": {
             "requires": "6.7"
           }
@@ -127,11 +134,11 @@
         {
           "name": "creek_blue_manage_release-6.7.aar",
           "url": "creek_blue_manage_release-6.7.aar",
-          "size": 19415,
-          "sha512": "935e0eb8fc9dcf172323c594817986e78e351ffa07a4aeb50b284ba8d823b9c8544e5527e0f0386b119c137bdc7dbf3e8f547e35ff4c7547c011062f3de0bdc9",
-          "sha256": "238dd62ff94ba300ef1267a05e23082dc9f768a4ae970bf51f326a0c7c79ff38",
-          "sha1": "fb5bac0cfe99f9cb394a8ab917988a5e0464b70d",
-          "md5": "40dbce32f4aa2330343d536df0e9aff0"
+          "size": 29762,
+          "sha512": "77b5f1add5f09a56ef20fe7c1321493672b570eb2c17c480f270a821476af8735a50af4dd2bc313a7e0f19c8c242eff06db71a9270ace4d4c47d437fab5a7bdc",
+          "sha256": "66f2d0d2267b25d6c1eacc40adf4318f429b6f5d8b55b3d12c38e5e7256019ec",
+          "sha1": "a04ca869c730c3d5db9597e887ce738fa0077a23",
+          "md5": "fba236e0aaec2f3dbd8b3c78ca0f5546"
         }
       ]
     }

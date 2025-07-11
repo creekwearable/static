@@ -31,6 +31,12 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>com.builttoroam.devicecalendar</groupId>
+      <artifactId>device_calendar_release</artifactId>
+      <version>6.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>co.quis.flutter_contacts</groupId>
       <artifactId>flutter_contacts_release</artifactId>
       <version>6.7</version>
