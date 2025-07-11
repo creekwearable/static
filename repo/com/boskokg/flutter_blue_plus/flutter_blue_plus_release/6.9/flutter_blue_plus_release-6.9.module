@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boskokg.flutter_blue_plus",
+    "module": "flutter_blue_plus_release",
+    "version": "6.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "4.0.0-rc-2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_blue_plus_release-6.9.aar",
+          "url": "flutter_blue_plus_release-6.9.aar",
+          "size": 216439,
+          "sha512": "61c36ee08c2d99206409603c7a43203233b87d6a805f2d94e6248c41b7aab290a8480446c8b7445bb8c04897f5c149f001f76df207acbe6c231249091f8242f3",
+          "sha256": "9021b418fffabda7b050d16da30518c4db33e6085c9b6899aa80bc006bd21782",
+          "sha1": "00c92b6b0db3892a0a609e4510171063d6c0cf50",
+          "md5": "7d7a8d37feb162e35b36ae3e63c98557"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "4.0.0-rc-2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_blue_plus_release-6.9.aar",
+          "url": "flutter_blue_plus_release-6.9.aar",
+          "size": 216439,
+          "sha512": "61c36ee08c2d99206409603c7a43203233b87d6a805f2d94e6248c41b7aab290a8480446c8b7445bb8c04897f5c149f001f76df207acbe6c231249091f8242f3",
+          "sha256": "9021b418fffabda7b050d16da30518c4db33e6085c9b6899aa80bc006bd21782",
+          "sha1": "00c92b6b0db3892a0a609e4510171063d6c0cf50",
+          "md5": "7d7a8d37feb162e35b36ae3e63c98557"
+        }
+      ]
+    }
+  ]
+}
