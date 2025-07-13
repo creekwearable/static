@@ -42,11 +42,11 @@
         {
           "name": "creek_blue_manage_release-6.9.aar",
           "url": "creek_blue_manage_release-6.9.aar",
-          "size": 29762,
-          "sha512": "77b5f1add5f09a56ef20fe7c1321493672b570eb2c17c480f270a821476af8735a50af4dd2bc313a7e0f19c8c242eff06db71a9270ace4d4c47d437fab5a7bdc",
-          "sha256": "66f2d0d2267b25d6c1eacc40adf4318f429b6f5d8b55b3d12c38e5e7256019ec",
-          "sha1": "a04ca869c730c3d5db9597e887ce738fa0077a23",
-          "md5": "fba236e0aaec2f3dbd8b3c78ca0f5546"
+          "size": 30366,
+          "sha512": "ed94e392171db4cb5e9e00a4bc9277210f7cc85b907afae30ebf651bb7da0dec42e30e40e22b4f35012dc58ed947aa816c75f0eefd34ff59cebf7f743675a133",
+          "sha256": "9cf9875810071cac1bdf1c7cc601f1cefeb37bf7ad7a9e476510d27adb93f46b",
+          "sha1": "668e98273705f2ec6866149f10f6c36e1ffa5d04",
+          "md5": "6a821c667f2386f855c7b46bfd7b047f"
         }
       ]
     },
@@ -134,11 +134,11 @@
         {
           "name": "creek_blue_manage_release-6.9.aar",
           "url": "creek_blue_manage_release-6.9.aar",
-          "size": 29762,
-          "sha512": "77b5f1add5f09a56ef20fe7c1321493672b570eb2c17c480f270a821476af8735a50af4dd2bc313a7e0f19c8c242eff06db71a9270ace4d4c47d437fab5a7bdc",
-          "sha256": "66f2d0d2267b25d6c1eacc40adf4318f429b6f5d8b55b3d12c38e5e7256019ec",
-          "sha1": "a04ca869c730c3d5db9597e887ce738fa0077a23",
-          "md5": "fba236e0aaec2f3dbd8b3c78ca0f5546"
+          "size": 30366,
+          "sha512": "ed94e392171db4cb5e9e00a4bc9277210f7cc85b907afae30ebf651bb7da0dec42e30e40e22b4f35012dc58ed947aa816c75f0eefd34ff59cebf7f743675a133",
+          "sha256": "9cf9875810071cac1bdf1c7cc601f1cefeb37bf7ad7a9e476510d27adb93f46b",
+          "sha1": "668e98273705f2ec6866149f10f6c36e1ffa5d04",
+          "md5": "6a821c667f2386f855c7b46bfd7b047f"
         }
       ]
     }
