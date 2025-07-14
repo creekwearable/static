@@ -137,6 +137,13 @@
           }
         },
         {
+          "group": "com.example.flutter_silero_vad",
+          "module": "flutter_silero_vad_release",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
           "group": "com.example.xfyun_speech",
           "module": "xfyun_speech_release",
           "version": {

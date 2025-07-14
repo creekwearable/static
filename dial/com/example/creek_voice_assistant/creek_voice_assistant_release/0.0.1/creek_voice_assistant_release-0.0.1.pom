@@ -79,6 +79,12 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>com.example.flutter_silero_vad</groupId>
+      <artifactId>flutter_silero_vad_release</artifactId>
+      <version>0.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>com.example.xfyun_speech</groupId>
       <artifactId>xfyun_speech_release</artifactId>
       <version>0.0.1</version>

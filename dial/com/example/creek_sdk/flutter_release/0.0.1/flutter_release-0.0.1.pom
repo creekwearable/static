@@ -115,6 +115,12 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>com.example.flutter_silero_vad</groupId>
+      <artifactId>flutter_silero_vad_release</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>com.example.image_clipper</groupId>
       <artifactId>image_clipper_release</artifactId>
       <version>0.0.1</version>
