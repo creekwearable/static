@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.creek_sleep_stage_algorithm",
+    "module": "creek_sleep_stage_algorithm_release",
+    "version": "7.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_sleep_stage_algorithm_release-7.2.aar",
+          "url": "creek_sleep_stage_algorithm_release-7.2.aar",
+          "size": 22907,
+          "sha512": "2a70038bbd80acdc875fe1e697460d0392032d54bf399716869912cd4fb0379f41be15e8fa6b7d24a4410b35663f30c543de9b22f5319f9776708c1ec710a69a",
+          "sha256": "e96dd554320c70ada6eca528a2ff6af1eb4a604a25eb203b6501e6ab30f9f9a5",
+          "sha1": "0cd024bb1f1ea53acbca807a5c7a53416180275f",
+          "md5": "d4f365f911beff8bef3943a25be6bca8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_sleep_stage_algorithm_release-7.2.aar",
+          "url": "creek_sleep_stage_algorithm_release-7.2.aar",
+          "size": 22907,
+          "sha512": "2a70038bbd80acdc875fe1e697460d0392032d54bf399716869912cd4fb0379f41be15e8fa6b7d24a4410b35663f30c543de9b22f5319f9776708c1ec710a69a",
+          "sha256": "e96dd554320c70ada6eca528a2ff6af1eb4a604a25eb203b6501e6ab30f9f9a5",
+          "sha1": "0cd024bb1f1ea53acbca807a5c7a53416180275f",
+          "md5": "d4f365f911beff8bef3943a25be6bca8"
+        }
+      ]
+    }
+  ]
+}
