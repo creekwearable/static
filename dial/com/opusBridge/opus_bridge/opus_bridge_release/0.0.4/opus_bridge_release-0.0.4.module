@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.opusBridge.opus_bridge",
+    "module": "opus_bridge_release",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opus_bridge_release-0.0.4.aar",
+          "url": "opus_bridge_release-0.0.4.aar",
+          "size": 986976,
+          "sha512": "6d41fdc4c8b85ce25466713f3d1d359b1bd85afd8db4a316cce70d9acf8316ce75149e45b2559d25fd90528fe99bb66bc7ad9a21c9dba060e1a3e3b3a1530c45",
+          "sha256": "5754e00668de2498619a5ae850a58646a4231077a94dde430ff93ed5b053ee9a",
+          "sha1": "f746a244ac3e913ae42b8886fe5991027e184402",
+          "md5": "b06f51bae06fce2e7f170fb2b63034e7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opus_bridge_release-0.0.4.aar",
+          "url": "opus_bridge_release-0.0.4.aar",
+          "size": 986976,
+          "sha512": "6d41fdc4c8b85ce25466713f3d1d359b1bd85afd8db4a316cce70d9acf8316ce75149e45b2559d25fd90528fe99bb66bc7ad9a21c9dba060e1a3e3b3a1530c45",
+          "sha256": "5754e00668de2498619a5ae850a58646a4231077a94dde430ff93ed5b053ee9a",
+          "sha1": "f746a244ac3e913ae42b8886fe5991027e184402",
+          "md5": "b06f51bae06fce2e7f170fb2b63034e7"
+        }
+      ]
+    }
+  ]
+}
