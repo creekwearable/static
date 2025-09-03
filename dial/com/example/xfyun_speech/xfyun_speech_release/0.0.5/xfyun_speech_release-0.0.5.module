@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.xfyun_speech",
+    "module": "xfyun_speech_release",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "xfyun_speech_release-0.0.5.aar",
+          "url": "xfyun_speech_release-0.0.5.aar",
+          "size": 492518,
+          "sha512": "8c8711cfea3cf9be2c6a103150f4a2fbf8953d464776eb87105e63904d742de0a2a906de43eabbf3a51632a1477b185caecd91186c84af3ae08f2ee6d37caada",
+          "sha256": "f5d66b581da3368bbb7387928e5f244d6264a536af28e379d5549f64900fc022",
+          "sha1": "cfe198546516dedf0b9f2407d5a4c2b68b3b64dc",
+          "md5": "bfa839c9845b3ff0ed5fcd84f725505d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "xfyun_speech_release-0.0.5.aar",
+          "url": "xfyun_speech_release-0.0.5.aar",
+          "size": 492518,
+          "sha512": "8c8711cfea3cf9be2c6a103150f4a2fbf8953d464776eb87105e63904d742de0a2a906de43eabbf3a51632a1477b185caecd91186c84af3ae08f2ee6d37caada",
+          "sha256": "f5d66b581da3368bbb7387928e5f244d6264a536af28e379d5549f64900fc022",
+          "sha1": "cfe198546516dedf0b9f2407d5a4c2b68b3b64dc",
+          "md5": "bfa839c9845b3ff0ed5fcd84f725505d"
+        }
+      ]
+    }
+  ]
+}
