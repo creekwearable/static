@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.creek_index_convert",
+    "module": "creek_index_convert_release",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_index_convert_release-0.0.2.aar",
+          "url": "creek_index_convert_release-0.0.2.aar",
+          "size": 2774032,
+          "sha512": "39bee9e775a4545a17ddbc6fcdca400f1d92b6dce4cc3b033cc70a0570e98951d93fec8171bf3fdcd02edbc9cb62ad093f1376b2b69dba3929fa753998eb3fa7",
+          "sha256": "d58968aa8656c3cb32e8ed0fd1c39742bc17897174b783ab408d3af8a99fa8ca",
+          "sha1": "13f3970c7937e77049076155c14f229eebeb3d64",
+          "md5": "575c568479e74d030e2afd6028985814"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_index_convert_release-0.0.2.aar",
+          "url": "creek_index_convert_release-0.0.2.aar",
+          "size": 2774032,
+          "sha512": "39bee9e775a4545a17ddbc6fcdca400f1d92b6dce4cc3b033cc70a0570e98951d93fec8171bf3fdcd02edbc9cb62ad093f1376b2b69dba3929fa753998eb3fa7",
+          "sha256": "d58968aa8656c3cb32e8ed0fd1c39742bc17897174b783ab408d3af8a99fa8ca",
+          "sha1": "13f3970c7937e77049076155c14f229eebeb3d64",
+          "md5": "575c568479e74d030e2afd6028985814"
+        }
+      ]
+    }
+  ]
+}
