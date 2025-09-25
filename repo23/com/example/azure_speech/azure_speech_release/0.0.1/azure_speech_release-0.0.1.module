@@ -45,11 +45,11 @@
         {
           "name": "azure_speech_release-0.0.1.aar",
           "url": "azure_speech_release-0.0.1.aar",
-          "size": 11306,
-          "sha512": "0c9931a364927f51448e881ec90e0918c596e3959e1b49bedd7ea2397b4e641289bdc78266f1bfc3607677199bffdacc9b1ead423ec2ba72eb8864b90ac0099b",
-          "sha256": "4022a91b9a3945c8fc8621dbb059fdb3306a1dccd643deacf4b89f8aca7fe198",
-          "sha1": "d51305d23f60b40299f09e8fd966f55ce2d846f8",
-          "md5": "015707ea55dcd04e3096547be2edae0c"
+          "size": 305957,
+          "sha512": "dc750f312ac0cd404b3a69ba43cd7e1188d10ecf22662c1ea4da59c8ceafaeac84ec95b7d5829d7669ea915d5bc80c247d7ef9d96d0c9571b08c3848c7d5a27a",
+          "sha256": "cd538c4c69b7bbc38bb6281cfda055954bb891ba101183ad12d5a6f567fa7248",
+          "sha1": "0a488011c11ba003036104ee8fc932b4a09c3f1e",
+          "md5": "ca399d4ac5aa309eff5dc9f308011768"
         }
       ]
     },
@@ -116,34 +116,17 @@
               "module": "azure-core"
             }
           ]
-        },
-        {
-          "group": "com.azure",
-          "module": "azure-core",
-          "version": {
-            "requires": "1.14.0"
-          },
-          "excludes": [
-            {
-              "group": "jakarta.xml.bind",
-              "module": "jakarta.xml.bind-api"
-            },
-            {
-              "group": "jakarta.activation",
-              "module": "jakarta.activation-api"
-            }
-          ]
         }
       ],
       "files": [
         {
           "name": "azure_speech_release-0.0.1.aar",
           "url": "azure_speech_release-0.0.1.aar",
-          "size": 11306,
-          "sha512": "0c9931a364927f51448e881ec90e0918c596e3959e1b49bedd7ea2397b4e641289bdc78266f1bfc3607677199bffdacc9b1ead423ec2ba72eb8864b90ac0099b",
-          "sha256": "4022a91b9a3945c8fc8621dbb059fdb3306a1dccd643deacf4b89f8aca7fe198",
-          "sha1": "d51305d23f60b40299f09e8fd966f55ce2d846f8",
-          "md5": "015707ea55dcd04e3096547be2edae0c"
+          "size": 305957,
+          "sha512": "dc750f312ac0cd404b3a69ba43cd7e1188d10ecf22662c1ea4da59c8ceafaeac84ec95b7d5829d7669ea915d5bc80c247d7ef9d96d0c9571b08c3848c7d5a27a",
+          "sha256": "cd538c4c69b7bbc38bb6281cfda055954bb891ba101183ad12d5a6f567fa7248",
+          "sha1": "0a488011c11ba003036104ee8fc932b4a09c3f1e",
+          "md5": "ca399d4ac5aa309eff5dc9f308011768"
         }
       ]
     }
