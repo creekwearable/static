@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.opusBridge.opus_bridge",
+    "module": "opus_bridge_release",
+    "version": "8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opus_bridge_release-8.6.aar",
+          "url": "opus_bridge_release-8.6.aar",
+          "size": 987015,
+          "sha512": "f2c662f3ecad9295c78ab6dd1ef6d854c5d31d3f86457e433102b8c2e39f1cffb2cfa93f74984a27ac85acbc5afa0ed841a5784a1ca6d270982e51aec2c18cea",
+          "sha256": "47f9ce764ae86f278c80ad85f52776ad02bdbf063f2c03c1460dc59f10db7dda",
+          "sha1": "4932b53afd57292969ba893b8814c4eb510b5128",
+          "md5": "d24ff8341ee9a4224893f572eae30257"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opus_bridge_release-8.6.aar",
+          "url": "opus_bridge_release-8.6.aar",
+          "size": 987015,
+          "sha512": "f2c662f3ecad9295c78ab6dd1ef6d854c5d31d3f86457e433102b8c2e39f1cffb2cfa93f74984a27ac85acbc5afa0ed841a5784a1ca6d270982e51aec2c18cea",
+          "sha256": "47f9ce764ae86f278c80ad85f52776ad02bdbf063f2c03c1460dc59f10db7dda",
+          "sha1": "4932b53afd57292969ba893b8814c4eb510b5128",
+          "md5": "d24ff8341ee9a4224893f572eae30257"
+        }
+      ]
+    }
+  ]
+}
