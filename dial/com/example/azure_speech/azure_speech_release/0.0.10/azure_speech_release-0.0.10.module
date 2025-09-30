@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.azure_speech",
+    "module": "azure_speech_release",
+    "version": "0.0.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure_speech_release-0.0.10.aar",
+          "url": "azure_speech_release-0.0.10.aar",
+          "size": 11306,
+          "sha512": "0c9931a364927f51448e881ec90e0918c596e3959e1b49bedd7ea2397b4e641289bdc78266f1bfc3607677199bffdacc9b1ead423ec2ba72eb8864b90ac0099b",
+          "sha256": "4022a91b9a3945c8fc8621dbb059fdb3306a1dccd643deacf4b89f8aca7fe198",
+          "sha1": "d51305d23f60b40299f09e8fd966f55ce2d846f8",
+          "md5": "015707ea55dcd04e3096547be2edae0c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.microsoft.cognitiveservices.speech",
+          "module": "client-sdk",
+          "version": {
+            "requires": "1.44.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure_speech_release-0.0.10.aar",
+          "url": "azure_speech_release-0.0.10.aar",
+          "size": 11306,
+          "sha512": "0c9931a364927f51448e881ec90e0918c596e3959e1b49bedd7ea2397b4e641289bdc78266f1bfc3607677199bffdacc9b1ead423ec2ba72eb8864b90ac0099b",
+          "sha256": "4022a91b9a3945c8fc8621dbb059fdb3306a1dccd643deacf4b89f8aca7fe198",
+          "sha1": "d51305d23f60b40299f09e8fd966f55ce2d846f8",
+          "md5": "015707ea55dcd04e3096547be2edae0c"
+        }
+      ]
+    }
+  ]
+}
