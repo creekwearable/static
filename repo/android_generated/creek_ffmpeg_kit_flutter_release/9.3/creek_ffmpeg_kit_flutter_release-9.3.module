@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "android_generated",
+    "module": "creek_ffmpeg_kit_flutter_release",
+    "version": "9.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_ffmpeg_kit_flutter_release-9.3.aar",
+          "url": "creek_ffmpeg_kit_flutter_release-9.3.aar",
+          "size": 28899,
+          "sha512": "ffd4e8da1e3e92811c9f44177d267c049be283c079e530ef363fb55bc6870ecf45a50761e93d3aa1037568daca8bc065590432759a92094306c462d6eb219711",
+          "sha256": "777f00c0e200e230ad55fbb7115efb28336be7abd49afeaff78c2accd2fbda06",
+          "sha1": "853a4d2064dc36e07befcbf2b3229c387a013fa7",
+          "md5": "c7e31fdc4606f6297919a801cf2feec3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "arthenica",
+          "module": "creek-ffmpeg-kit-https",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_ffmpeg_kit_flutter_release-9.3.aar",
+          "url": "creek_ffmpeg_kit_flutter_release-9.3.aar",
+          "size": 28899,
+          "sha512": "ffd4e8da1e3e92811c9f44177d267c049be283c079e530ef363fb55bc6870ecf45a50761e93d3aa1037568daca8bc065590432759a92094306c462d6eb219711",
+          "sha256": "777f00c0e200e230ad55fbb7115efb28336be7abd49afeaff78c2accd2fbda06",
+          "sha1": "853a4d2064dc36e07befcbf2b3229c387a013fa7",
+          "md5": "c7e31fdc4606f6297919a801cf2feec3"
+        }
+      ]
+    }
+  ]
+}
