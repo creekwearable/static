@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.image_clipper",
+    "module": "image_clipper_release",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image_clipper_release-0.0.4.aar",
+          "url": "image_clipper_release-0.0.4.aar",
+          "size": 6732,
+          "sha512": "89ef9601ea43d465316fddeb34592db0d57a70b5b9b74c7b5dd2a560e995fb449f0578668971a873b28649e484fffb856c236c88ad1530e46d8f6ce5ba7640bf",
+          "sha256": "7833ca5efc8d8275097013b4a2fe8df2f3c1abe7e43c81a0ffa4deec91e8314d",
+          "sha1": "417836ca23d41f95e27733bc4c165b1bd5c29409",
+          "md5": "508ecf46c2841364a54f070aa300c744"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image_clipper_release-0.0.4.aar",
+          "url": "image_clipper_release-0.0.4.aar",
+          "size": 6732,
+          "sha512": "89ef9601ea43d465316fddeb34592db0d57a70b5b9b74c7b5dd2a560e995fb449f0578668971a873b28649e484fffb856c236c88ad1530e46d8f6ce5ba7640bf",
+          "sha256": "7833ca5efc8d8275097013b4a2fe8df2f3c1abe7e43c81a0ffa4deec91e8314d",
+          "sha1": "417836ca23d41f95e27733bc4c165b1bd5c29409",
+          "md5": "508ecf46c2841364a54f070aa300c744"
+        }
+      ]
+    }
+  ]
+}
