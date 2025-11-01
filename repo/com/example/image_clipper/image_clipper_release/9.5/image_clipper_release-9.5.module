@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.image_clipper",
+    "module": "image_clipper_release",
+    "version": "9.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image_clipper_release-9.5.aar",
+          "url": "image_clipper_release-9.5.aar",
+          "size": 4682,
+          "sha512": "2589309a1a4e219c4f1150ec98978b8cc41270ca64ec89dfb9a388a31a7657cdf8dee0de6c786af421da044e0d972b99a9e98a34725bf76a907d6523feba22b5",
+          "sha256": "08eec7057a71acbe91d6aed4160112a04a0b8546e74b68bbf7e54cfff42497c2",
+          "sha1": "dd1dd9e3b16f69bff4db7ff1e12a7db81b9a7389",
+          "md5": "07325f41afc1c41dd071e14e3393b613"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image_clipper_release-9.5.aar",
+          "url": "image_clipper_release-9.5.aar",
+          "size": 4682,
+          "sha512": "2589309a1a4e219c4f1150ec98978b8cc41270ca64ec89dfb9a388a31a7657cdf8dee0de6c786af421da044e0d972b99a9e98a34725bf76a907d6523feba22b5",
+          "sha256": "08eec7057a71acbe91d6aed4160112a04a0b8546e74b68bbf7e54cfff42497c2",
+          "sha1": "dd1dd9e3b16f69bff4db7ff1e12a7db81b9a7389",
+          "md5": "07325f41afc1c41dd071e14e3393b613"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "image_clipper_release-9.5-sources.jar",
+          "url": "image_clipper_release-9.5-sources.jar",
+          "size": 2090,
+          "sha512": "49a3d855e5adb04581fc58ac9edb4eefae04d9d5087c1f7acf55558069ef19aeb173055f11ed46c983fa88e900ad0f2e41bb5c7fde7ffc07f23c7c4d04c442ff",
+          "sha256": "d90937921945ff45bd0e060ab98b28237b0305883d241a92e34e6959c12b279a",
+          "sha1": "cae6d4ec31fbbb4a9b5b53ef98c1178dfa2ea085",
+          "md5": "b2ab330d3f15077d302f465949bacac0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "image_clipper_release-9.5-javadoc.jar",
+          "url": "image_clipper_release-9.5-javadoc.jar",
+          "size": 262195,
+          "sha512": "5634a0f1153dd503f5ca72803c61cda5817b1200f589287807036daf0dfdb57bb0cdfb1622df5dc575fc9c763c158a5b4cc790a04b1b661082230b259427ba67",
+          "sha256": "7740c2b48b8cf1cc2d34b4ad651d78aadab1f2d9e6ae0ec10bdae6e9ca345deb",
+          "sha1": "384fb316dbd3b50f45d6ba054624c319f66e03d2",
+          "md5": "98471ecb09e4938f602afb156aaa7269"
+        }
+      ]
+    }
+  ]
+}
