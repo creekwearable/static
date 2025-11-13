@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.azure_speech",
+    "module": "azure_speech_release",
+    "version": "0.0.14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure_speech_release-0.0.14.aar",
+          "url": "azure_speech_release-0.0.14.aar",
+          "size": 8356,
+          "sha512": "c9dc1c4a606655d1145a257752ed21f919eb352bfb222c1c7dd1f038792eb84c447134e1ccb382059edac001b280260ba6fdb8fc13fce27546edbec0814033a6",
+          "sha256": "1579bc12925a8fb0e3b2aebd793767bd975628ac3916a7b95d6ab1d4df67282a",
+          "sha1": "b8c9d94f6f8b7974043ee731ba6c6dbfb4ac3ebf",
+          "md5": "7b2e096f36ea8b53d8041ec27bcb0ddf"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.microsoft.cognitiveservices.speech",
+          "module": "client-sdk",
+          "version": {
+            "requires": "1.44.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure_speech_release-0.0.14.aar",
+          "url": "azure_speech_release-0.0.14.aar",
+          "size": 8356,
+          "sha512": "c9dc1c4a606655d1145a257752ed21f919eb352bfb222c1c7dd1f038792eb84c447134e1ccb382059edac001b280260ba6fdb8fc13fce27546edbec0814033a6",
+          "sha256": "1579bc12925a8fb0e3b2aebd793767bd975628ac3916a7b95d6ab1d4df67282a",
+          "sha1": "b8c9d94f6f8b7974043ee731ba6c6dbfb4ac3ebf",
+          "md5": "7b2e096f36ea8b53d8041ec27bcb0ddf"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "azure_speech_release-0.0.14-sources.jar",
+          "url": "azure_speech_release-0.0.14-sources.jar",
+          "size": 3126,
+          "sha512": "c5fa482378fdd5f590f01c09bad0bf0a1e1027b3b1099efbb4c7c0383bf25e94efc4661b47f42f56bffa83fa69035684e8540237d8f321807ea8c82b7ef8e7bf",
+          "sha256": "dbc48cfeddc8a77360a235294ce5a1e5b33ea0e8f58d014a36f47a444801bc4c",
+          "sha1": "472e764be030c1f6f0ed99b7d9a68b18c1963915",
+          "md5": "184592d26c85753e0c119f324542f14b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "azure_speech_release-0.0.14-javadoc.jar",
+          "url": "azure_speech_release-0.0.14-javadoc.jar",
+          "size": 262206,
+          "sha512": "2c6ac11c5e247f39a22f66fe3e64078e2631e64b67aa121a4be773c226c2d09794aa376eb1a93d49b89cd8b0e6b0dcacab926411d35d3724fa6890775eae2376",
+          "sha256": "58f9f55020ce2450e1133ccab8d77b63922b7f79d91db468bfa1a6b06ec7146b",
+          "sha1": "270fd957317bb31b8846f6c1078e0db37f2de879",
+          "md5": "6070687435f408fe5cbf5083df73984b"
+        }
+      ]
+    }
+  ]
+}
