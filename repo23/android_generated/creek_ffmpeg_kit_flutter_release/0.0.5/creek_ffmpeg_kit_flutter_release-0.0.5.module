@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.12"
+      "version": "7.5"
     }
   },
   "variants": [
@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "creek_ffmpeg_kit_flutter_release-0.0.5.aar",
           "url": "creek_ffmpeg_kit_flutter_release-0.0.5.aar",
-          "size": 26719,
-          "sha512": "79dc36a48e91db7515cd692962f42dad52ab61a533495fbf8530b8abe277a52a43d454c5bbfd434c2cb2547042cba5e5178d203b9434c2b6974618e16ebec4f7",
-          "sha256": "57aca8603defab78f33d70a8d5e4e5c57c78bc3637507a3207e714c2aece2a79",
-          "sha1": "ce60474122155a0582231173b6e4544a4e1a586f",
-          "md5": "ca500a0d8b6cf1ec288f7778dd9e9bf4"
+          "size": 28906,
+          "sha512": "d04b5343de124223f12d9a4ea5a29b50aba2fc7b6d7fd881ef57e1bbd35ec803ffa9834a37f7ea96470950bb6d78e588057c6f521f2a7dd5d187c7a3de82bc7c",
+          "sha256": "fe133acf62475542a9747d03a8240b6a616743070d24fa2d837e63c6502ae489",
+          "sha1": "380345e3c65ba15bb75efcc0beedc47f3a858f0f",
+          "md5": "4e4557e16534c1ae910ca80401d2a6e1"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
           }
         },
         {
@@ -78,51 +78,11 @@
         {
           "name": "creek_ffmpeg_kit_flutter_release-0.0.5.aar",
           "url": "creek_ffmpeg_kit_flutter_release-0.0.5.aar",
-          "size": 26719,
-          "sha512": "79dc36a48e91db7515cd692962f42dad52ab61a533495fbf8530b8abe277a52a43d454c5bbfd434c2cb2547042cba5e5178d203b9434c2b6974618e16ebec4f7",
-          "sha256": "57aca8603defab78f33d70a8d5e4e5c57c78bc3637507a3207e714c2aece2a79",
-          "sha1": "ce60474122155a0582231173b6e4544a4e1a586f",
-          "md5": "ca500a0d8b6cf1ec288f7778dd9e9bf4"
-        }
-      ]
-    },
-    {
-      "name": "releaseVariantReleaseSourcePublication",
-      "attributes": {
-        "org.gradle.category": "documentation",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "sources",
-        "org.gradle.usage": "java-runtime"
-      },
-      "files": [
-        {
-          "name": "creek_ffmpeg_kit_flutter_release-0.0.5-sources.jar",
-          "url": "creek_ffmpeg_kit_flutter_release-0.0.5-sources.jar",
-          "size": 14776,
-          "sha512": "40c98156259926efc4c41bef55667936c2a132d961444653c60f565ece2e58aebc34e2aef5086b83fd17632ad589febff57f2e35df7ec2b8021d180bab809d0e",
-          "sha256": "b422ae0e9f2db04414511b88e1c5bc4f431edf05110fdf641ac9a67958d0f7ad",
-          "sha1": "19af9e7fc11f98350e731b4aa3baa286a5796815",
-          "md5": "39fcc732a4d22bd1834ee499ef54f45d"
-        }
-      ]
-    },
-    {
-      "name": "releaseVariantReleaseJavaDocPublication",
-      "attributes": {
-        "org.gradle.category": "documentation",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "javadoc",
-        "org.gradle.usage": "java-runtime"
-      },
-      "files": [
-        {
-          "name": "creek_ffmpeg_kit_flutter_release-0.0.5-javadoc.jar",
-          "url": "creek_ffmpeg_kit_flutter_release-0.0.5-javadoc.jar",
-          "size": 284554,
-          "sha512": "6d5ee327b0584b831c1c3183e0183693cb85d6b99d8dc91ef1ae0e959288f6e3aef8ee81327c32f289394848c516634a2bb0b4ed11608cd3b84fe87b3739dc8b",
-          "sha256": "46703859287012b1d614287d5ad53e48c353f1116780caf25ba9135fc9a57e61",
-          "sha1": "d741de875d7b3fb13874afe296cf2a9c33896a54",
-          "md5": "76f3e9ccb356639a47352853cd8fcf2c"
+          "size": 28906,
+          "sha512": "d04b5343de124223f12d9a4ea5a29b50aba2fc7b6d7fd881ef57e1bbd35ec803ffa9834a37f7ea96470950bb6d78e588057c6f521f2a7dd5d187c7a3de82bc7c",
+          "sha256": "fe133acf62475542a9747d03a8240b6a616743070d24fa2d837e63c6502ae489",
+          "sha1": "380345e3c65ba15bb75efcc0beedc47f3a858f0f",
+          "md5": "4e4557e16534c1ae910ca80401d2a6e1"
         }
       ]
     }
