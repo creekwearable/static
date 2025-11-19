@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.wolverinebeach.flutter_timezone",
+    "module": "flutter_timezone_release",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_timezone_release-0.0.5.aar",
+          "url": "flutter_timezone_release-0.0.5.aar",
+          "size": 4716,
+          "sha512": "3d79e9551efb3a75304a5e33c30550d5b9106e5d11e3fb7fa4c2b024b32053425d0a542c372c32d8f46fa3ec0c105a4b54c07c2134d2bdcb27a9b069d3876158",
+          "sha256": "f39b6c0983856b890b62ffbe705eec255392721dee8ac6d9c24267e24ce62c07",
+          "sha1": "a7db6c247beb32a6a578cdf1c584a6c1d21cde59",
+          "md5": "a5dac7a67c057beb027bd47962393fff"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_timezone_release-0.0.5.aar",
+          "url": "flutter_timezone_release-0.0.5.aar",
+          "size": 4716,
+          "sha512": "3d79e9551efb3a75304a5e33c30550d5b9106e5d11e3fb7fa4c2b024b32053425d0a542c372c32d8f46fa3ec0c105a4b54c07c2134d2bdcb27a9b069d3876158",
+          "sha256": "f39b6c0983856b890b62ffbe705eec255392721dee8ac6d9c24267e24ce62c07",
+          "sha1": "a7db6c247beb32a6a578cdf1c584a6c1d21cde59",
+          "md5": "a5dac7a67c057beb027bd47962393fff"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_timezone_release-0.0.5-sources.jar",
+          "url": "flutter_timezone_release-0.0.5-sources.jar",
+          "size": 1790,
+          "sha512": "fa55b58db7ea6e3a14f2c0ff67f5e31ac059e71c56c49934fec175a986ec505db3be9b8f54793eb3bb72e4218540597f609b330231999f0a577847abfc427482",
+          "sha256": "ff3273b9f23ac59ef963f4232d0b26ee6596b16ab24e4e32d3f80cd202ea7b19",
+          "sha1": "608c1f54ec8ca86e65c43300de09f9a45395d888",
+          "md5": "f933fc143137cc1c540d46803d03561d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_timezone_release-0.0.5-javadoc.jar",
+          "url": "flutter_timezone_release-0.0.5-javadoc.jar",
+          "size": 262429,
+          "sha512": "00f9478c6e21a1090f005b34bdbdff726f72f5850e02012263c41eb0d787c7fb375a50460c3c1fb819f5720cdd7ed2cee7ed559fd3d8321db148cee043fdd68c",
+          "sha256": "361a8851fb72470f62a5ea6bdaa390f8c767ff2f2026779e0a00dc8585265a3e",
+          "sha1": "f125b6f18b4717d0e87eafd4153ce784fb395771",
+          "md5": "dde444c85002e77d1e9832c6324eb564"
+        }
+      ]
+    }
+  ]
+}
