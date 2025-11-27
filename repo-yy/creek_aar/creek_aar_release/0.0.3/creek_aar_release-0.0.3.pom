@@ -1,0 +1,7 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>creek_aar</groupId>
+  <artifactId>creek_aar_release</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+</project>

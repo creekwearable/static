@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tekartik.sqflite",
+    "module": "sqflite_release",
+    "version": "0.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_release-0.0.3.aar",
+          "url": "sqflite_release-0.0.3.aar",
+          "size": 43424,
+          "sha512": "b7bbbec288b263ec89222f04e55ae94349786d1e59fb7269d2e6110891aaa190b0aaa711bfa818cc695f03addbe2891f1034bc8e193bd627cb724906e74a58ad",
+          "sha256": "8d62e61570339fc95cd2626a8a808a56a884ab2ac616940a0e48230c63d5b21b",
+          "sha1": "9e3386c7c55b7c362179c9693e383523bf2540ac",
+          "md5": "19d667639dd97e142806f555bf5f0b37"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_release-0.0.3.aar",
+          "url": "sqflite_release-0.0.3.aar",
+          "size": 43424,
+          "sha512": "b7bbbec288b263ec89222f04e55ae94349786d1e59fb7269d2e6110891aaa190b0aaa711bfa818cc695f03addbe2891f1034bc8e193bd627cb724906e74a58ad",
+          "sha256": "8d62e61570339fc95cd2626a8a808a56a884ab2ac616940a0e48230c63d5b21b",
+          "sha1": "9e3386c7c55b7c362179c9693e383523bf2540ac",
+          "md5": "19d667639dd97e142806f555bf5f0b37"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sqflite_release-0.0.3-sources.jar",
+          "url": "sqflite_release-0.0.3-sources.jar",
+          "size": 23906,
+          "sha512": "84be2e0f11f6739735214c714fcf25ca7b657afc40b3b54a0f0eff0de0f085cc926571087ab261b90cb6ed1e0be787046b45db4603790b883b119c835c22aa20",
+          "sha256": "a127166bbaf1689504c6fc9e5111043a0537dc09ba3ea55a6d743da958ef125a",
+          "sha1": "55f721f93f9c468c9d426bc61ff59a393e267750",
+          "md5": "3f9cd042a556379914178c3426bed53c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sqflite_release-0.0.3-javadoc.jar",
+          "url": "sqflite_release-0.0.3-javadoc.jar",
+          "size": 341650,
+          "sha512": "c3dbdd2f96bf4d462768d34cbbc4d7416f862b05e170d5c2c2f4227edfaeb367c5003fd6f6cb9c1825844e52eea47191b82e067e5ee03c73220a5bb4c6fc8af5",
+          "sha256": "edb6a2bd8cbda0c58d81de1e90bc7a6de03faac6e8060526ef458516b3ab6f3b",
+          "sha1": "32a5cb91597461f6e5269363b85afd335304d8ea",
+          "md5": "accffaea35de1b6408c6923fdf1750c7"
+        }
+      ]
+    }
+  ]
+}
