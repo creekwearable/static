@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tekartik.sqflite",
+    "module": "sqflite_release",
+    "version": "0.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_release-0.0.7.aar",
+          "url": "sqflite_release-0.0.7.aar",
+          "size": 43424,
+          "sha512": "b7bbbec288b263ec89222f04e55ae94349786d1e59fb7269d2e6110891aaa190b0aaa711bfa818cc695f03addbe2891f1034bc8e193bd627cb724906e74a58ad",
+          "sha256": "8d62e61570339fc95cd2626a8a808a56a884ab2ac616940a0e48230c63d5b21b",
+          "sha1": "9e3386c7c55b7c362179c9693e383523bf2540ac",
+          "md5": "19d667639dd97e142806f555bf5f0b37"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_release-0.0.7.aar",
+          "url": "sqflite_release-0.0.7.aar",
+          "size": 43424,
+          "sha512": "b7bbbec288b263ec89222f04e55ae94349786d1e59fb7269d2e6110891aaa190b0aaa711bfa818cc695f03addbe2891f1034bc8e193bd627cb724906e74a58ad",
+          "sha256": "8d62e61570339fc95cd2626a8a808a56a884ab2ac616940a0e48230c63d5b21b",
+          "sha1": "9e3386c7c55b7c362179c9693e383523bf2540ac",
+          "md5": "19d667639dd97e142806f555bf5f0b37"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sqflite_release-0.0.7-sources.jar",
+          "url": "sqflite_release-0.0.7-sources.jar",
+          "size": 23906,
+          "sha512": "84be2e0f11f6739735214c714fcf25ca7b657afc40b3b54a0f0eff0de0f085cc926571087ab261b90cb6ed1e0be787046b45db4603790b883b119c835c22aa20",
+          "sha256": "a127166bbaf1689504c6fc9e5111043a0537dc09ba3ea55a6d743da958ef125a",
+          "sha1": "55f721f93f9c468c9d426bc61ff59a393e267750",
+          "md5": "3f9cd042a556379914178c3426bed53c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sqflite_release-0.0.7-javadoc.jar",
+          "url": "sqflite_release-0.0.7-javadoc.jar",
+          "size": 341663,
+          "sha512": "6545dcf24c013b140832e929da8a13562279046342498bbd5f94ab3bde3ffc02807cc85739a8730a017f461a10dfbed252d0325528b97257687683c3e2e450d3",
+          "sha256": "8dee9d33519b2d49231e77d0c6512d25bb132e5ec2e658cd3aab7d1245d06142",
+          "sha1": "87c56e11136850dc8d02e4144cd159550d100f55",
+          "md5": "529b2f5829c3659540ab5a6803098687"
+        }
+      ]
+    }
+  ]
+}
