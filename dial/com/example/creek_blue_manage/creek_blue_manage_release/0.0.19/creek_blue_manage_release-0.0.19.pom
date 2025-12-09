@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.creek_blue_manage</groupId>
+  <artifactId>creek_blue_manage_release</artifactId>
+  <version>0.0.19</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>flutter_embedding_release</artifactId>
+      <version>1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tekartik.sqflite</groupId>
+      <artifactId>sqflite_release</artifactId>
+      <version>0.0.19</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.builttoroam.devicecalendar</groupId>
+      <artifactId>device_calendar_release</artifactId>
+      <version>0.0.19</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>co.quis.flutter_contacts</groupId>
+      <artifactId>flutter_contacts_release</artifactId>
+      <version>0.0.19</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.example.lz4</groupId>
+      <artifactId>lz4_release</artifactId>
+      <version>0.0.19</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.boskokg.flutter_blue_plus</groupId>
+      <artifactId>flutter_blue_plus_release</artifactId>
+      <version>0.0.19</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.example.sbc</groupId>
+      <artifactId>sbc_release</artifactId>
+      <version>0.0.19</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.example.creek_sleep_stage_algorithm</groupId>
+      <artifactId>creek_sleep_stage_algorithm_release</artifactId>
+      <version>0.0.19</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>android_generated</groupId>
+      <artifactId>creek_ffmpeg_kit_flutter_release</artifactId>
+      <version>0.0.19</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.example.creek_index_convert</groupId>
+      <artifactId>creek_index_convert_release</artifactId>
+      <version>0.0.19</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

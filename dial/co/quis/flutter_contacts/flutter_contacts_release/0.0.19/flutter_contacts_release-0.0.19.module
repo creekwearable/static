@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "co.quis.flutter_contacts",
+    "module": "flutter_contacts_release",
+    "version": "0.0.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_contacts_release-0.0.19.aar",
+          "url": "flutter_contacts_release-0.0.19.aar",
+          "size": 131160,
+          "sha512": "2f8dced86182c4a71747702c2116141f5e363c509f8d04537873c4ee49da8e244c797c8ad101ba8473b281e9994aab4ff135e342626bb91b7d630f855ce10ec9",
+          "sha256": "6488cc11d931dafa9d96091583b8f8703a4a816885ec10b20409eb24f31776a9",
+          "sha1": "802fe9e2a2a2305d7d262cd24cf1f3c3003e5418",
+          "md5": "e255f3714c9fcf949d23dd61c10f543e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_contacts_release-0.0.19.aar",
+          "url": "flutter_contacts_release-0.0.19.aar",
+          "size": 131160,
+          "sha512": "2f8dced86182c4a71747702c2116141f5e363c509f8d04537873c4ee49da8e244c797c8ad101ba8473b281e9994aab4ff135e342626bb91b7d630f855ce10ec9",
+          "sha256": "6488cc11d931dafa9d96091583b8f8703a4a816885ec10b20409eb24f31776a9",
+          "sha1": "802fe9e2a2a2305d7d262cd24cf1f3c3003e5418",
+          "md5": "e255f3714c9fcf949d23dd61c10f543e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_contacts_release-0.0.19-sources.jar",
+          "url": "flutter_contacts_release-0.0.19-sources.jar",
+          "size": 20016,
+          "sha512": "4120b9c59bfcf46bde5138a7bce63f945a61befe8d46d00a904948a866fc2e7a7d2c0a50d1ae2f6b4922cc8a689d0eb2b3647ec39bfba24ff905e306e9e6f459",
+          "sha256": "d996d26da7d1958177f2788c55275619d472f8859efbc4e4d7dae141e97a0db6",
+          "sha1": "eecd3daa5e7893e38a170c52092828c74df06b43",
+          "md5": "30826daeeb89a1c08aa800fc8b4735d1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_contacts_release-0.0.19-javadoc.jar",
+          "url": "flutter_contacts_release-0.0.19-javadoc.jar",
+          "size": 387019,
+          "sha512": "cb862b96229d041468f97d6592cd5ed826331cbf8545176d974061ae705441d96d2ce8442a036a53c2ea0474993bfdaa4b1324467a28c8d8f858d01b68f2d9b2",
+          "sha256": "bbd34a0d05f896e4ec14c86f298c1024bc79c9f8429cc3ea1d89eaae7200ab5c",
+          "sha1": "07a5767436dff6bf3d20f9a4939a867f5b3e7177",
+          "md5": "1a32f28d43a5c679ad1735095efef4e2"
+        }
+      ]
+    }
+  ]
+}
