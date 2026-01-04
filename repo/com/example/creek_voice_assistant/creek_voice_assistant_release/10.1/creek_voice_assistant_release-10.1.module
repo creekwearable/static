@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.creek_voice_assistant",
+    "module": "creek_voice_assistant_release",
+    "version": "10.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_voice_assistant_release-10.1.aar",
+          "url": "creek_voice_assistant_release-10.1.aar",
+          "size": 2595,
+          "sha512": "68b8537d5bec7c945e10a11d2e74356aebaedb4b5060ed2f2702d40f313cc09ec98db6922cc63fe6271ecddd1eaa7a069c0c076681a3e285c5f3dbc31a8516e4",
+          "sha256": "c7d58aa82fa75d02fdb533c17bfe7a2cbdf3c864ef8387d3f00c616a696ca8c6",
+          "sha1": "2e7b633d817c7c5e9e4523b85102ae86d78f7e58",
+          "md5": "eec51f7b23ffdf78dda845227443ea20"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.connectivity",
+          "module": "connectivity_plus_release",
+          "version": {
+            "requires": "10.1"
+          }
+        },
+        {
+          "group": "android_generated",
+          "module": "creek_ffmpeg_kit_flutter_release",
+          "version": {
+            "requires": "10.1"
+          }
+        },
+        {
+          "group": "net.wolverinebeach.flutter_timezone",
+          "module": "flutter_timezone_release",
+          "version": {
+            "requires": "10.1"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.packageinfo",
+          "module": "package_info_plus_release",
+          "version": {
+            "requires": "10.1"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.device_info",
+          "module": "device_info_plus_release",
+          "version": {
+            "requires": "10.1"
+          }
+        },
+        {
+          "group": "com.example.creek_blue_manage",
+          "module": "creek_blue_manage_release",
+          "version": {
+            "requires": "10.1"
+          }
+        },
+        {
+          "group": "com.example.azure_speech",
+          "module": "azure_speech_release",
+          "version": {
+            "requires": "10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_voice_assistant_release-10.1.aar",
+          "url": "creek_voice_assistant_release-10.1.aar",
+          "size": 2595,
+          "sha512": "68b8537d5bec7c945e10a11d2e74356aebaedb4b5060ed2f2702d40f313cc09ec98db6922cc63fe6271ecddd1eaa7a069c0c076681a3e285c5f3dbc31a8516e4",
+          "sha256": "c7d58aa82fa75d02fdb533c17bfe7a2cbdf3c864ef8387d3f00c616a696ca8c6",
+          "sha1": "2e7b633d817c7c5e9e4523b85102ae86d78f7e58",
+          "md5": "eec51f7b23ffdf78dda845227443ea20"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_voice_assistant_release-10.1-sources.jar",
+          "url": "creek_voice_assistant_release-10.1-sources.jar",
+          "size": 1329,
+          "sha512": "99d53ab04432acaae64a40f642cb881834c122817a36774847287e10b4085b723302c3a87abd6801aa0c6c0e62017480ec50747d2c69c4a615b1b619800cb392",
+          "sha256": "da51bd286e89d16d6c6d16a52a6920ccbeca4fa8c83a7cd74d8ed7be8334bb00",
+          "sha1": "ac87bc9cf27b136205309ece64ca603e694be15d",
+          "md5": "ab9a2beeb4fcf956d1c74ef5e4bb2dce"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_voice_assistant_release-10.1-javadoc.jar",
+          "url": "creek_voice_assistant_release-10.1-javadoc.jar",
+          "size": 260838,
+          "sha512": "1fd5cbeb4aa5805af50e3d87c225313f9914da7a83a31e52ffd760381aebe3f54eab36902f933e01d8ed0cc0e2ee81b06472037dfb4371800abe18af3bd30272",
+          "sha256": "df4efa02e043a8d71a2f065fde621798ea2bc62303bf8a6c7f7e9d93c04e5340",
+          "sha1": "363d2fe42a7b399e915d4439d378d888ab2de812",
+          "md5": "efa6ecdfec0d9bb956ffb1ed87206c1e"
+        }
+      ]
+    }
+  ]
+}
