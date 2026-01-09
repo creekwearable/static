@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.creek_sleep_stage_algorithm",
+    "module": "creek_sleep_stage_algorithm_release",
+    "version": "0.0.15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_sleep_stage_algorithm_release-0.0.15.aar",
+          "url": "creek_sleep_stage_algorithm_release-0.0.15.aar",
+          "size": 20497,
+          "sha512": "c282b04b65b2d2cedd1dd460911332071e620ff0c966b53bdb775089e546391f9afe572a2800a02d5221a1274d7544e66a49406620a94b302af30f5bdc53e30f",
+          "sha256": "22b686ceaeba085f69ae3324c510fa1027294832cd47da63cc69d919d2fb40a8",
+          "sha1": "c10e8a95f73ac7b42eee5a768ab1832375aa228e",
+          "md5": "2765d8c1351a2897f29feee92589d8e6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_sleep_stage_algorithm_release-0.0.15.aar",
+          "url": "creek_sleep_stage_algorithm_release-0.0.15.aar",
+          "size": 20497,
+          "sha512": "c282b04b65b2d2cedd1dd460911332071e620ff0c966b53bdb775089e546391f9afe572a2800a02d5221a1274d7544e66a49406620a94b302af30f5bdc53e30f",
+          "sha256": "22b686ceaeba085f69ae3324c510fa1027294832cd47da63cc69d919d2fb40a8",
+          "sha1": "c10e8a95f73ac7b42eee5a768ab1832375aa228e",
+          "md5": "2765d8c1351a2897f29feee92589d8e6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_sleep_stage_algorithm_release-0.0.15-sources.jar",
+          "url": "creek_sleep_stage_algorithm_release-0.0.15-sources.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_sleep_stage_algorithm_release-0.0.15-javadoc.jar",
+          "url": "creek_sleep_stage_algorithm_release-0.0.15-javadoc.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
