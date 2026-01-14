@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.azure_speech",
+    "module": "azure_speech_release",
+    "version": "0.0.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          },
+          "excludes": [
+            {
+              "group": "jakarta.xml.bind",
+              "module": "jakarta.xml.bind-api"
+            },
+            {
+              "group": "jakarta.activation",
+              "module": "jakarta.activation-api"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "azure_speech_release-0.0.10.aar",
+          "url": "azure_speech_release-0.0.10.aar",
+          "size": 16130,
+          "sha512": "fa8b65c9ec00e901ee18364ebd96732857660d6e4022f234471c5d0d09407d6a8bdfed0d05442d76677519d9faf0d71dde5292404ef4761b8ca7fd9f507468d2",
+          "sha256": "be6cf82c268d23947c06a8b991f33a61211f75e764b18009032cacd244a582ad",
+          "sha1": "17913ac63143e544a3a708d9eac0888ec1e3aec9",
+          "md5": "1ebd835695824866752376cf4ff56dcf"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          },
+          "excludes": [
+            {
+              "group": "jakarta.xml.bind",
+              "module": "jakarta.xml.bind-api"
+            },
+            {
+              "group": "jakarta.activation",
+              "module": "jakarta.activation-api"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          },
+          "excludes": [
+            {
+              "group": "jakarta.xml.bind",
+              "module": "jakarta.xml.bind-api"
+            },
+            {
+              "group": "jakarta.activation",
+              "module": "jakarta.activation-api"
+            }
+          ]
+        },
+        {
+          "group": "arthenica",
+          "module": "client-sdk",
+          "version": {
+            "requires": "1.0.0"
+          },
+          "excludes": [
+            {
+              "group": "jakarta.xml.bind",
+              "module": "jakarta.xml.bind-api"
+            },
+            {
+              "group": "jakarta.activation",
+              "module": "jakarta.activation-api"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "azure_speech_release-0.0.10.aar",
+          "url": "azure_speech_release-0.0.10.aar",
+          "size": 16130,
+          "sha512": "fa8b65c9ec00e901ee18364ebd96732857660d6e4022f234471c5d0d09407d6a8bdfed0d05442d76677519d9faf0d71dde5292404ef4761b8ca7fd9f507468d2",
+          "sha256": "be6cf82c268d23947c06a8b991f33a61211f75e764b18009032cacd244a582ad",
+          "sha1": "17913ac63143e544a3a708d9eac0888ec1e3aec9",
+          "md5": "1ebd835695824866752376cf4ff56dcf"
+        }
+      ]
+    }
+  ]
+}

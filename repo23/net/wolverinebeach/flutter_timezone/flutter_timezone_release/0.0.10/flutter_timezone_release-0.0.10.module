@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.wolverinebeach.flutter_timezone",
+    "module": "flutter_timezone_release",
+    "version": "0.0.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_timezone_release-0.0.10.aar",
+          "url": "flutter_timezone_release-0.0.10.aar",
+          "size": 6779,
+          "sha512": "7089d05af077401de670bb2ada67e0075f494fec73a8b13dbb16944bcd83a9a8bc99fd37207636c2c775585c4868c0331fb21e58ff5e543d9df7b9852ae21ec7",
+          "sha256": "ed9e45112b65844023e8cf3a3c2ff2dc1155cfe1ef9f08f5ced7fb79a3806f42",
+          "sha1": "e21912c1b8f3342b64c69733fa54f8c7e89d27f8",
+          "md5": "15431e1bbe398e1cb12b38ffe0d50100"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_timezone_release-0.0.10.aar",
+          "url": "flutter_timezone_release-0.0.10.aar",
+          "size": 6779,
+          "sha512": "7089d05af077401de670bb2ada67e0075f494fec73a8b13dbb16944bcd83a9a8bc99fd37207636c2c775585c4868c0331fb21e58ff5e543d9df7b9852ae21ec7",
+          "sha256": "ed9e45112b65844023e8cf3a3c2ff2dc1155cfe1ef9f08f5ced7fb79a3806f42",
+          "sha1": "e21912c1b8f3342b64c69733fa54f8c7e89d27f8",
+          "md5": "15431e1bbe398e1cb12b38ffe0d50100"
+        }
+      ]
+    }
+  ]
+}
