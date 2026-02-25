@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.creek_blue_manage",
+    "module": "creek_blue_manage_release",
+    "version": "0.0.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_blue_manage_release-0.0.13.aar",
+          "url": "creek_blue_manage_release-0.0.13.aar",
+          "size": 32267,
+          "sha512": "313f46eaee090ed90c17be4e79865661a24ad479ba779498317836962256bf841433c093dbc47c9fff0208d2b9d7b036e5cf2a1f5df37ea081ad22aeec7988d0",
+          "sha256": "615cff2eb090fcf792260ed4d48e8cd24e745e4ed17ea073b5b3050f8be239ba",
+          "sha1": "0c357e87acdc8ed6e35df3827c5bf1bc0bd75d16",
+          "md5": "6c417494e4f8383d66fdb935b325ca7c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.tekartik.sqflite",
+          "module": "sqflite_release",
+          "version": {
+            "requires": "0.0.13"
+          }
+        },
+        {
+          "group": "com.builttoroam.devicecalendar",
+          "module": "device_calendar_release",
+          "version": {
+            "requires": "0.0.13"
+          }
+        },
+        {
+          "group": "co.quis.flutter_contacts",
+          "module": "flutter_contacts_release",
+          "version": {
+            "requires": "0.0.13"
+          }
+        },
+        {
+          "group": "com.example.lz4",
+          "module": "lz4_release",
+          "version": {
+            "requires": "0.0.13"
+          }
+        },
+        {
+          "group": "com.boskokg.flutter_blue_plus",
+          "module": "flutter_blue_plus_release",
+          "version": {
+            "requires": "0.0.13"
+          }
+        },
+        {
+          "group": "com.example.sbc",
+          "module": "sbc_release",
+          "version": {
+            "requires": "0.0.13"
+          }
+        },
+        {
+          "group": "com.example.creek_sleep_stage_algorithm",
+          "module": "creek_sleep_stage_algorithm_release",
+          "version": {
+            "requires": "0.0.13"
+          }
+        },
+        {
+          "group": "android_generated",
+          "module": "creek_ffmpeg_kit_flutter_release",
+          "version": {
+            "requires": "0.0.13"
+          }
+        },
+        {
+          "group": "com.example.creek_index_convert",
+          "module": "creek_index_convert_release",
+          "version": {
+            "requires": "0.0.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_blue_manage_release-0.0.13.aar",
+          "url": "creek_blue_manage_release-0.0.13.aar",
+          "size": 32267,
+          "sha512": "313f46eaee090ed90c17be4e79865661a24ad479ba779498317836962256bf841433c093dbc47c9fff0208d2b9d7b036e5cf2a1f5df37ea081ad22aeec7988d0",
+          "sha256": "615cff2eb090fcf792260ed4d48e8cd24e745e4ed17ea073b5b3050f8be239ba",
+          "sha1": "0c357e87acdc8ed6e35df3827c5bf1bc0bd75d16",
+          "md5": "6c417494e4f8383d66fdb935b325ca7c"
+        }
+      ]
+    }
+  ]
+}
