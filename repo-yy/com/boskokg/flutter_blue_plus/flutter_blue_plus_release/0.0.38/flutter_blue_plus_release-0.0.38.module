@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boskokg.flutter_blue_plus",
+    "module": "flutter_blue_plus_release",
+    "version": "0.0.38",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "4.0.0-rc-2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_blue_plus_release-0.0.38.aar",
+          "url": "flutter_blue_plus_release-0.0.38.aar",
+          "size": 214507,
+          "sha512": "e60c8dc572db16ff5f79e3419e2a86df8abed0f9517bc30d55129b4cde3d5db4d064ced1adaed3002982b394260fb418667061b89fadf7190c9b6958ab4796fe",
+          "sha256": "1d66abcfc40a65f8518fdba70da9c8329115ff699cdb89e48faff6181c6dbeee",
+          "sha1": "6c8f37f32677da53d1bf49aa5572e6d5db7f99fd",
+          "md5": "d2edc73a9485054484abf9f8be2797e9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d2913632a4578ee4d0b8b1c4a69888c8a0672c4b"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "4.0.0-rc-2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_blue_plus_release-0.0.38.aar",
+          "url": "flutter_blue_plus_release-0.0.38.aar",
+          "size": 214507,
+          "sha512": "e60c8dc572db16ff5f79e3419e2a86df8abed0f9517bc30d55129b4cde3d5db4d064ced1adaed3002982b394260fb418667061b89fadf7190c9b6958ab4796fe",
+          "sha256": "1d66abcfc40a65f8518fdba70da9c8329115ff699cdb89e48faff6181c6dbeee",
+          "sha1": "6c8f37f32677da53d1bf49aa5572e6d5db7f99fd",
+          "md5": "d2edc73a9485054484abf9f8be2797e9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_blue_plus_release-0.0.38-sources.jar",
+          "url": "flutter_blue_plus_release-0.0.38-sources.jar",
+          "size": 53046,
+          "sha512": "b5eb33789fcbcd16a553f09696f2024c80b3fdfb6be3717585a4c4166b9aed8fc9439bbe74dafc8fae0f3cfcc190c41d64ea4f4fb5a7d48f49fb486d2dd94b6c",
+          "sha256": "0d746d387f84cefb08133a8b6386d76a4e2093a61daff60cce2478314c261d04",
+          "sha1": "ed081e5c46778799ae1d1b1aa99246367b54a2a7",
+          "md5": "ea49a0a97b6c1f0414cff11984273bc5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_blue_plus_release-0.0.38-javadoc.jar",
+          "url": "flutter_blue_plus_release-0.0.38-javadoc.jar",
+          "size": 726116,
+          "sha512": "8537c751f6e046625a96848a665e1b3bd9d9c60963bb26f8157f95d8f42b94a9e646a6cc0346306b97f67030fa65888f7b24a761117f8201c3674a26a07cee5d",
+          "sha256": "e26258b22168c9930be5542cf63f1b5dbd330a1566d73e43b78bd495c8cbf206",
+          "sha1": "4d984e3b7f24c9793a665a8cb8a38766bf13eab8",
+          "md5": "017f450cbab39a5d80c6e380f3c0c6c9"
+        }
+      ]
+    }
+  ]
+}
