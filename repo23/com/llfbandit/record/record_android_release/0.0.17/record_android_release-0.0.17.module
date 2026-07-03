@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.llfbandit.record",
+    "module": "record_android_release",
+    "version": "0.0.17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "record_android_release-0.0.17.aar",
+          "url": "record_android_release-0.0.17.aar",
+          "size": 106979,
+          "sha512": "f1e0ba1cf59149617e50bb3ce3b74666b686fcca6a47a42911bc641ed64d3340156d15edf3990fd9f9398a4b70652e07bbd82d4a633ffdfc520f0fa05fb78c45",
+          "sha256": "7b1152edac73a31879dfb9927eec289fd201da9c3b8f89fa399f68e43815564e",
+          "sha1": "0610b0fe907e27ce733983673b892916715c2278",
+          "md5": "e1c253698111d9d52a4745d331f3e37d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "record_android_release-0.0.17.aar",
+          "url": "record_android_release-0.0.17.aar",
+          "size": 106979,
+          "sha512": "f1e0ba1cf59149617e50bb3ce3b74666b686fcca6a47a42911bc641ed64d3340156d15edf3990fd9f9398a4b70652e07bbd82d4a633ffdfc520f0fa05fb78c45",
+          "sha256": "7b1152edac73a31879dfb9927eec289fd201da9c3b8f89fa399f68e43815564e",
+          "sha1": "0610b0fe907e27ce733983673b892916715c2278",
+          "md5": "e1c253698111d9d52a4745d331f3e37d"
+        }
+      ]
+    }
+  ]
+}
