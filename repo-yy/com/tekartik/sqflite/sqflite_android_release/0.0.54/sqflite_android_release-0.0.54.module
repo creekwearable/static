@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tekartik.sqflite",
+    "module": "sqflite_android_release",
+    "version": "0.0.54",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_android_release-0.0.54.aar",
+          "url": "sqflite_android_release-0.0.54.aar",
+          "size": 43114,
+          "sha512": "d503f9bfda65979de31a2fae5f8f09ba4c0dffc2e4b103bafed743ad856f6fe846942769cfdfd1a6b7b002a547ad66254c23079af4e8761a3644c8c1db9ae130",
+          "sha256": "9853dd219a077ace534dd5baca1a95ba8c4472db8a138054784c5625cd97dfe0",
+          "sha1": "dc898fa37aef3652ebae2d18055ae54079786cdc",
+          "md5": "abc510276235f235e95d5194735e8ac0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_android_release-0.0.54.aar",
+          "url": "sqflite_android_release-0.0.54.aar",
+          "size": 43114,
+          "sha512": "d503f9bfda65979de31a2fae5f8f09ba4c0dffc2e4b103bafed743ad856f6fe846942769cfdfd1a6b7b002a547ad66254c23079af4e8761a3644c8c1db9ae130",
+          "sha256": "9853dd219a077ace534dd5baca1a95ba8c4472db8a138054784c5625cd97dfe0",
+          "sha1": "dc898fa37aef3652ebae2d18055ae54079786cdc",
+          "md5": "abc510276235f235e95d5194735e8ac0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sqflite_android_release-0.0.54-sources.jar",
+          "url": "sqflite_android_release-0.0.54-sources.jar",
+          "size": 23748,
+          "sha512": "79a18e8544303c175a5518d48dc0d23a617f6da7f5ddf699a7e94e154c1a221a1182d6b22363d34103e63d7e17decb835bdc2e3e92bfe0d08b1be7349ecc3847",
+          "sha256": "7c4ef41dcd75693d0abddc88b3ba5c2fd30c31ee71155462d81055d982095868",
+          "sha1": "8b554a039e5de13b3998bf9f2a1ef11cda40c2f1",
+          "md5": "54e2ffa57d01fe69ac670dda7fb4b5f3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sqflite_android_release-0.0.54-javadoc.jar",
+          "url": "sqflite_android_release-0.0.54-javadoc.jar",
+          "size": 339918,
+          "sha512": "14c1e81680744a0c85b5f54cfff1e089ecb5283ceb206ea339588b64e078f10e295946007a97191eb718de55a4e35f2e3250d5037f1f66045a8bcb439e00473f",
+          "sha256": "2cf8d43a0a1cd141af7f2f72884da356edc8e0534b94f0d078a8bc65353e22ff",
+          "sha1": "a51b5906bd8c5554463fc34ab8ce6f2b3c3aeefa",
+          "md5": "8ad3bc280570631f0ef56de5b3769943"
+        }
+      ]
+    }
+  ]
+}
