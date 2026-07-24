@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.pathprovider",
+    "module": "path_provider_android_release",
+    "version": "0.0.57",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "path_provider_android_release-0.0.57.aar",
+          "url": "path_provider_android_release-0.0.57.aar",
+          "size": 10349,
+          "sha512": "b932b2de3ce7eef88094969a5f5d75d4951605e0b596047e9b25d7dd98e8afe98b56206e42acb713ed467f306e14dd0fc2b542d8e2c04618fd82bf613a4c1ad5",
+          "sha256": "4f58bb545c5e875e8a1829dbba8717ab5fde4153be70bbecef8e229dfcda66c8",
+          "sha1": "d7c9156e704ce33e440afc0849d7cefe974ed48e",
+          "md5": "86788aa4c4d9fd820a213504d93d612e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "path_provider_android_release-0.0.57.aar",
+          "url": "path_provider_android_release-0.0.57.aar",
+          "size": 10349,
+          "sha512": "b932b2de3ce7eef88094969a5f5d75d4951605e0b596047e9b25d7dd98e8afe98b56206e42acb713ed467f306e14dd0fc2b542d8e2c04618fd82bf613a4c1ad5",
+          "sha256": "4f58bb545c5e875e8a1829dbba8717ab5fde4153be70bbecef8e229dfcda66c8",
+          "sha1": "d7c9156e704ce33e440afc0849d7cefe974ed48e",
+          "md5": "86788aa4c4d9fd820a213504d93d612e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "path_provider_android_release-0.0.57-sources.jar",
+          "url": "path_provider_android_release-0.0.57-sources.jar",
+          "size": 4121,
+          "sha512": "98abfe49b0c49012cf74c573e26b0af84ff0b734f9b13ef74b5ee09b3731a8f699a41cbad0060a6f53788a35b595f6cea8b6d24a9b28fc28c55faf578ea78335",
+          "sha256": "95e5edc3e2309e7fe549d0d67b05848a141eb5ea996c7e68ce2990e32191cb46",
+          "sha1": "e0c3107497e5fa098fb6a873e214796778aee5d7",
+          "md5": "6fb2208a851ccf1b24b54473fb99bc03"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "path_provider_android_release-0.0.57-javadoc.jar",
+          "url": "path_provider_android_release-0.0.57-javadoc.jar",
+          "size": 294235,
+          "sha512": "b6fa02d1f33e9c2474f62729d27eaeca848f2f7a04a08770101b29f1fec9cd8323088936549aaffd36578a09d83e138f9f225bf0e214c30fbd943d70b2f1ffed",
+          "sha256": "2a2b1d834ef6425a227bad7d3f6d90d0dee1729cef8eca66d01bd96145ae7e51",
+          "sha1": "ddcf876ad85f8837d6edcbf7813d427c47d25067",
+          "md5": "28b8e40acb63574ae253843772b60b43"
+        }
+      ]
+    }
+  ]
+}
