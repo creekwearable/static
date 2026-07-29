@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "android_generated",
+    "module": "creek_ffmpeg_kit_flutter_release",
+    "version": "10.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_ffmpeg_kit_flutter_release-10.7.aar",
+          "url": "creek_ffmpeg_kit_flutter_release-10.7.aar",
+          "size": 26750,
+          "sha512": "8f530cadb68a672c98278cdf2f8a98e6dfc9ebdb38cbee3ee196040e8555b52873eedf982240b0f9ef836464d8823ced1d8e7d20c87c9952201489647c9cc0eb",
+          "sha256": "af41d119754d77faa4ede500dd125865a3b07d4259a9f8539ffa904e2b98afd8",
+          "sha1": "fe28ef311d93e59f15b28d7df89e929eb5b0babe",
+          "md5": "b3d00f5c2c0bbaa62ebebcc0f872152a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "arthenica",
+          "module": "creek-ffmpeg-kit-https",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_ffmpeg_kit_flutter_release-10.7.aar",
+          "url": "creek_ffmpeg_kit_flutter_release-10.7.aar",
+          "size": 26750,
+          "sha512": "8f530cadb68a672c98278cdf2f8a98e6dfc9ebdb38cbee3ee196040e8555b52873eedf982240b0f9ef836464d8823ced1d8e7d20c87c9952201489647c9cc0eb",
+          "sha256": "af41d119754d77faa4ede500dd125865a3b07d4259a9f8539ffa904e2b98afd8",
+          "sha1": "fe28ef311d93e59f15b28d7df89e929eb5b0babe",
+          "md5": "b3d00f5c2c0bbaa62ebebcc0f872152a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_ffmpeg_kit_flutter_release-10.7-sources.jar",
+          "url": "creek_ffmpeg_kit_flutter_release-10.7-sources.jar",
+          "size": 14776,
+          "sha512": "40c98156259926efc4c41bef55667936c2a132d961444653c60f565ece2e58aebc34e2aef5086b83fd17632ad589febff57f2e35df7ec2b8021d180bab809d0e",
+          "sha256": "b422ae0e9f2db04414511b88e1c5bc4f431edf05110fdf641ac9a67958d0f7ad",
+          "sha1": "19af9e7fc11f98350e731b4aa3baa286a5796815",
+          "md5": "39fcc732a4d22bd1834ee499ef54f45d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_ffmpeg_kit_flutter_release-10.7-javadoc.jar",
+          "url": "creek_ffmpeg_kit_flutter_release-10.7-javadoc.jar",
+          "size": 284550,
+          "sha512": "a6c76b85d5e5c7c76acadc2598c24877512b11971bc9073c98c47ecfd53d31eec33b1a12df440aa5fa9c9ad708468eb8e922dc3b0c74c0580a13043eb1cc692a",
+          "sha256": "9992d348ea6cce3948eb9c7b4f28810e19998b73b0aabae0d104bf788d3506a6",
+          "sha1": "de0e7fd0a8d57e3faa22e19772093a153bd00106",
+          "md5": "155260328920646a2a71007bb74c4f81"
+        }
+      ]
+    }
+  ]
+}

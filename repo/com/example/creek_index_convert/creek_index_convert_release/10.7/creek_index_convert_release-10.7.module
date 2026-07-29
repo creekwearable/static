@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.creek_index_convert",
+    "module": "creek_index_convert_release",
+    "version": "10.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_index_convert_release-10.7.aar",
+          "url": "creek_index_convert_release-10.7.aar",
+          "size": 2868632,
+          "sha512": "ae3bc1bfc4a1fd481c8255c727464760530adc06a11c42a6445d2218b7c251a801466118609b6026975451e5e6f2601fee140aa09c933b84cdd4be7f54e81d9d",
+          "sha256": "54e708bab68667639fe53e1e50d0b38059c6f890987145f23e6ed2edb697ab76",
+          "sha1": "acfafba7643350e495d8b28effa9ebab5c6cfd26",
+          "md5": "8f05a2dc624035ccd52e4fbf22c79576"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_index_convert_release-10.7.aar",
+          "url": "creek_index_convert_release-10.7.aar",
+          "size": 2868632,
+          "sha512": "ae3bc1bfc4a1fd481c8255c727464760530adc06a11c42a6445d2218b7c251a801466118609b6026975451e5e6f2601fee140aa09c933b84cdd4be7f54e81d9d",
+          "sha256": "54e708bab68667639fe53e1e50d0b38059c6f890987145f23e6ed2edb697ab76",
+          "sha1": "acfafba7643350e495d8b28effa9ebab5c6cfd26",
+          "md5": "8f05a2dc624035ccd52e4fbf22c79576"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_index_convert_release-10.7-sources.jar",
+          "url": "creek_index_convert_release-10.7-sources.jar",
+          "size": 2108,
+          "sha512": "f88fe6b5bbd14b8555d88edc585ed63b93d6d0399cddd2762de0005c4b411baa30ac9874503a9306b04b4f979ac71b1b12924f900e3d0556945d70328ca7c8c2",
+          "sha256": "edf7a20354be4c8987d645aef5174c7c24cb36b7b427248425929f530b933beb",
+          "sha1": "901e948db47ae84f8bc5ac58063b379fdae69f52",
+          "md5": "8399bd8939a21ee9082b30a3163a1b5f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_index_convert_release-10.7-javadoc.jar",
+          "url": "creek_index_convert_release-10.7-javadoc.jar",
+          "size": 266847,
+          "sha512": "8ec6f85a7ccbc23a21282ed2956bb356e21f103404ae509dfaa6bc4fc3d2177fe26d7c0c78bea78db7703d8051c215ec5b13e5a6da90c3c38874406a564eaba8",
+          "sha256": "1adc89677af9371c656c12f03d651b97dc7cfcc3560ec2bf8e6a9b1cbc984e65",
+          "sha1": "94876047f45fcc9814a1a91b8daab1bde009c5d1",
+          "md5": "636aaebf026a24d5fa2eb402db4e130d"
+        }
+      ]
+    }
+  ]
+}

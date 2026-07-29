@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.llfbandit.record",
+    "module": "record_android_release",
+    "version": "10.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "record_android_release-10.7.aar",
+          "url": "record_android_release-10.7.aar",
+          "size": 118306,
+          "sha512": "debfe0f1cc8a118519c31cc4cefab0bfd60b8c9cfb965cbbaac54133036f4d9f1d8343f3591c4099aa174dceb6979aa91f99aaff1ee370866c10266c8839b923",
+          "sha256": "f8d1157d5bbb534bdfa4a444b6924e745826e468467d9d06d0439083a8fafb89",
+          "sha1": "2023198f723907ee8e48e4eed391146bc9736e01",
+          "md5": "4b68faba4c86136c5d5fa1b25cda6aae"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "record_android_release-10.7.aar",
+          "url": "record_android_release-10.7.aar",
+          "size": 118306,
+          "sha512": "debfe0f1cc8a118519c31cc4cefab0bfd60b8c9cfb965cbbaac54133036f4d9f1d8343f3591c4099aa174dceb6979aa91f99aaff1ee370866c10266c8839b923",
+          "sha256": "f8d1157d5bbb534bdfa4a444b6924e745826e468467d9d06d0439083a8fafb89",
+          "sha1": "2023198f723907ee8e48e4eed391146bc9736e01",
+          "md5": "4b68faba4c86136c5d5fa1b25cda6aae"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "record_android_release-10.7-sources.jar",
+          "url": "record_android_release-10.7-sources.jar",
+          "size": 40616,
+          "sha512": "239758d1a403c6cc595ab7629464716b749032e12c1ca3791f7a2e6677a7e69f37049956f5d998c6907a2e4c3acd971f99db44a42e1be042193cf0577b66b29d",
+          "sha256": "8bc0914b614021a6bb9845e99196d26641af96cb1d9ab3920a4e0971ff9096d1",
+          "sha1": "697d84ee8516e44174d9e5e3162f64f276c78322",
+          "md5": "2c9d71d93b952786b47da00546cbcfee"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "record_android_release-10.7-javadoc.jar",
+          "url": "record_android_release-10.7-javadoc.jar",
+          "size": 509490,
+          "sha512": "7464b380e424f269f193667fb4a5b314d3c32474b4eb02184ae3ed1fc76d7ec8aed33f731db14574f18f7903b73d0784d69aa79d3d012f9f383efd7a72901583",
+          "sha256": "93dcfded09470b29de4674f5a3a098e0ae7cc40030bebfa9002d2e04f2c3a5ca",
+          "sha1": "1609c15793ee5af0c3b898eebf5d982f10a926a7",
+          "md5": "819ff5e3e85606c4dee269af7058a216"
+        }
+      ]
+    }
+  ]
+}
