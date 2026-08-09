@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.creek_blue_manage",
+    "module": "creek_blue_manage_release",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_blue_manage_release-0.0.1.aar",
+          "url": "creek_blue_manage_release-0.0.1.aar",
+          "size": 20454,
+          "sha512": "4d697dcbe867328b54d7a23dcf52e1951d2d12221055995accc3bf76061c3d914d6628addf095bc63257d112c6f5f93c3c1637b7299c0a481162c40504962768",
+          "sha256": "bafaf189256183d5cc0748da0fac4c7e3f464c532a5bed587cd3cd692541c659",
+          "sha1": "e9d6d6465009dfe21560c48af3c4a515d62c426e",
+          "md5": "ba60d3435b6a925ca4d234c737dc2e57"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "com.builttoroam.devicecalendar",
+          "module": "device_calendar_release",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.boskokg.flutter_blue_plus",
+          "module": "flutter_blue_plus_release",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.example.creek_sleep_stage_algorithm",
+          "module": "creek_sleep_stage_algorithm_release",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.creek.creek_gnss_algorithm",
+          "module": "creek_gnss_algorithm_release",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_blue_manage_release-0.0.1.aar",
+          "url": "creek_blue_manage_release-0.0.1.aar",
+          "size": 20454,
+          "sha512": "4d697dcbe867328b54d7a23dcf52e1951d2d12221055995accc3bf76061c3d914d6628addf095bc63257d112c6f5f93c3c1637b7299c0a481162c40504962768",
+          "sha256": "bafaf189256183d5cc0748da0fac4c7e3f464c532a5bed587cd3cd692541c659",
+          "sha1": "e9d6d6465009dfe21560c48af3c4a515d62c426e",
+          "md5": "ba60d3435b6a925ca4d234c737dc2e57"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_blue_manage_release-0.0.1-sources.jar",
+          "url": "creek_blue_manage_release-0.0.1-sources.jar",
+          "size": 7312,
+          "sha512": "d71154c9752a0635168beb09a25869981261d70ea9b66ce2fac390a944353f113fd7b5a4ff3f78969245a458173a67bde26a260e5c0d2739fb0e2bfb64e9adbb",
+          "sha256": "70b0f3fd8ae020c2c4ca9f86f66368790450d0c61b1d5da8eae5deb7ea6fc80e",
+          "sha1": "e1a684fafb804df0d510544c26acfdf927d7c9e4",
+          "md5": "e133c08d3ff5134787b39c1095d526f8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_blue_manage_release-0.0.1-javadoc.jar",
+          "url": "creek_blue_manage_release-0.0.1-javadoc.jar",
+          "size": 298389,
+          "sha512": "e7bde53d64fc6b423ac48430bbf7da4cefdb7fdc1a88fe206619901d8f7e7ad5e7f569c9009a31b1ba1f49b49d8405ab20e3f2cecaa8d1f6dc9564c798208850",
+          "sha256": "da5ffe12b4e3e1d2819b6b9cdc3dfbec269777a306ba3e878c82a79973b058f4",
+          "sha1": "da5abb326edb3b4dbc90e04de5db1f65a70688aa",
+          "md5": "4065ea4a40f5ef38872df0ae15fda56b"
+        }
+      ]
+    }
+  ]
+}
