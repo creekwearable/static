@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.creek_index_convert",
+    "module": "creek_index_convert_release",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_index_convert_release-0.0.21.aar",
+          "url": "creek_index_convert_release-0.0.21.aar",
+          "size": 2871145,
+          "sha512": "39d126357930445bae77b2d777e73a93e26f0f34869093461455e47ce86bfdd7b92d1287134f7a0501bda1294ed0005b69f154edc74af771eb889ddd12549919",
+          "sha256": "5a446bb0ad480798cf22872f358d4dc7bf30dd87902eb4780bcbdd777bd03076",
+          "sha1": "de9a06af8e68c3e9bfffd18ced70dbfbaeb761f0",
+          "md5": "c3a298c96453335775a601061c89abab"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_index_convert_release-0.0.21.aar",
+          "url": "creek_index_convert_release-0.0.21.aar",
+          "size": 2871145,
+          "sha512": "39d126357930445bae77b2d777e73a93e26f0f34869093461455e47ce86bfdd7b92d1287134f7a0501bda1294ed0005b69f154edc74af771eb889ddd12549919",
+          "sha256": "5a446bb0ad480798cf22872f358d4dc7bf30dd87902eb4780bcbdd777bd03076",
+          "sha1": "de9a06af8e68c3e9bfffd18ced70dbfbaeb761f0",
+          "md5": "c3a298c96453335775a601061c89abab"
+        }
+      ]
+    }
+  ]
+}

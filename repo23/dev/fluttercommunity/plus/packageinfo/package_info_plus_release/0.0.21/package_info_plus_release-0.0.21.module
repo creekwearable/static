@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.packageinfo",
+    "module": "package_info_plus_release",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "package_info_plus_release-0.0.21.aar",
+          "url": "package_info_plus_release-0.0.21.aar",
+          "size": 7922,
+          "sha512": "120dd5e1b35e4f91652c6700444d846a25e27b08cc9784f72542dc80251f9c6d93bea52b7f1d8dec4f14c6343a9241411f442d75020fe43fdc6bf581dde716b2",
+          "sha256": "33f5bf44c162dd64c36cf1669ebcc1b38b38d518774492dc0ec45213d40fcdd0",
+          "sha1": "cd2868cc7b419b40658c68e97d1489a3d29d545a",
+          "md5": "43171337d98682afa7be02af5cb36333"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "package_info_plus_release-0.0.21.aar",
+          "url": "package_info_plus_release-0.0.21.aar",
+          "size": 7922,
+          "sha512": "120dd5e1b35e4f91652c6700444d846a25e27b08cc9784f72542dc80251f9c6d93bea52b7f1d8dec4f14c6343a9241411f442d75020fe43fdc6bf581dde716b2",
+          "sha256": "33f5bf44c162dd64c36cf1669ebcc1b38b38d518774492dc0ec45213d40fcdd0",
+          "sha1": "cd2868cc7b419b40658c68e97d1489a3d29d545a",
+          "md5": "43171337d98682afa7be02af5cb36333"
+        }
+      ]
+    }
+  ]
+}

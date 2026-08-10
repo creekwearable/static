@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.creek.creek_gnss_algorithm",
+    "module": "creek_gnss_algorithm_release",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_gnss_algorithm_release-0.0.21.aar",
+          "url": "creek_gnss_algorithm_release-0.0.21.aar",
+          "size": 34820,
+          "sha512": "6e0ee6f3d31a6e7b66488e48169fb97d9855b9675cbe12c270d1a14fc8d48e69c36a035cc7361c8502d758b5781d47acccd0ed28690f7b140a43d986a45d9ce7",
+          "sha256": "cd75d8f94baa36dab20ef524ca41a2959b59cc050cbcd40c696eae823930211b",
+          "sha1": "e629d8cba10646f15d69dc076d0f36e258c6f7d2",
+          "md5": "f3f0d2e0d038d254b6c3b33f309af971"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_gnss_algorithm_release-0.0.21.aar",
+          "url": "creek_gnss_algorithm_release-0.0.21.aar",
+          "size": 34820,
+          "sha512": "6e0ee6f3d31a6e7b66488e48169fb97d9855b9675cbe12c270d1a14fc8d48e69c36a035cc7361c8502d758b5781d47acccd0ed28690f7b140a43d986a45d9ce7",
+          "sha256": "cd75d8f94baa36dab20ef524ca41a2959b59cc050cbcd40c696eae823930211b",
+          "sha1": "e629d8cba10646f15d69dc076d0f36e258c6f7d2",
+          "md5": "f3f0d2e0d038d254b6c3b33f309af971"
+        }
+      ]
+    }
+  ]
+}
