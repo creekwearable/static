@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.creek_voice_assistant",
+    "module": "creek_voice_assistant_release",
+    "version": "0.0.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_voice_assistant_release-0.0.22.aar",
+          "url": "creek_voice_assistant_release-0.0.22.aar",
+          "size": 15022,
+          "sha512": "08b83d1007f4484c40c81d0369fa173c24ae4560bdb4b61812aa427e3789887965ec5819574dc695a38203389c0925cec8b06607520c16b7a7ae4c5860efb081",
+          "sha256": "e722bda829a453d07220e88489ceb92600f1211824243e2cad8844352ec123c6",
+          "sha1": "824e45174dccd32bad9e36ba29c1cf3d17cf586c",
+          "md5": "7ef1564ed57b79f52aa827a1f6d8684c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.connectivity",
+          "module": "connectivity_plus_release",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "android_generated",
+          "module": "creek_ffmpeg_kit_flutter_release",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "net.wolverinebeach.flutter_timezone",
+          "module": "flutter_timezone_release",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.packageinfo",
+          "module": "package_info_plus_release",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.device_info",
+          "module": "device_info_plus_release",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "com.example.creek_blue_manage",
+          "module": "creek_blue_manage_release",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "com.example.azure_speech",
+          "module": "azure_speech_release",
+          "version": {
+            "requires": "0.0.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_voice_assistant_release-0.0.22.aar",
+          "url": "creek_voice_assistant_release-0.0.22.aar",
+          "size": 15022,
+          "sha512": "08b83d1007f4484c40c81d0369fa173c24ae4560bdb4b61812aa427e3789887965ec5819574dc695a38203389c0925cec8b06607520c16b7a7ae4c5860efb081",
+          "sha256": "e722bda829a453d07220e88489ceb92600f1211824243e2cad8844352ec123c6",
+          "sha1": "824e45174dccd32bad9e36ba29c1cf3d17cf586c",
+          "md5": "7ef1564ed57b79f52aa827a1f6d8684c"
+        }
+      ]
+    }
+  ]
+}
