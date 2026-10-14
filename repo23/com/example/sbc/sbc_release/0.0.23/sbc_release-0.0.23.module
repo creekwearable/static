@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.sbc",
+    "module": "sbc_release",
+    "version": "0.0.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sbc_release-0.0.23.aar",
+          "url": "sbc_release-0.0.23.aar",
+          "size": 74806,
+          "sha512": "617283b924c7f9e98f22aa2e40f8eb581cb79d8a58aeb2e3adb6597eebb437841bcc2d6da8ecb6bd140c13bb21cc9bd56869d5b0c2fe944c29b418b8ab7a07ce",
+          "sha256": "12964b42ddf34b3c21378f111dae6251e0c38a05c941a3c732525df767f03809",
+          "sha1": "b16b4d8f41a1847f1a7d520ce4a93fa191ad7a52",
+          "md5": "1a839994e5bd893fff06712012419b7c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sbc_release-0.0.23.aar",
+          "url": "sbc_release-0.0.23.aar",
+          "size": 74806,
+          "sha512": "617283b924c7f9e98f22aa2e40f8eb581cb79d8a58aeb2e3adb6597eebb437841bcc2d6da8ecb6bd140c13bb21cc9bd56869d5b0c2fe944c29b418b8ab7a07ce",
+          "sha256": "12964b42ddf34b3c21378f111dae6251e0c38a05c941a3c732525df767f03809",
+          "sha1": "b16b4d8f41a1847f1a7d520ce4a93fa191ad7a52",
+          "md5": "1a839994e5bd893fff06712012419b7c"
+        }
+      ]
+    }
+  ]
+}
