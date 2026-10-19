@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.creek_blue_manage",
+    "module": "creek_blue_manage_release",
+    "version": "11.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_blue_manage_release-11.1.aar",
+          "url": "creek_blue_manage_release-11.1.aar",
+          "size": 20454,
+          "sha512": "4d697dcbe867328b54d7a23dcf52e1951d2d12221055995accc3bf76061c3d914d6628addf095bc63257d112c6f5f93c3c1637b7299c0a481162c40504962768",
+          "sha256": "bafaf189256183d5cc0748da0fac4c7e3f464c532a5bed587cd3cd692541c659",
+          "sha1": "e9d6d6465009dfe21560c48af3c4a515d62c426e",
+          "md5": "ba60d3435b6a925ca4d234c737dc2e57"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "com.tekartik.sqflite",
+          "module": "sqflite_release",
+          "version": {
+            "requires": "11.1"
+          }
+        },
+        {
+          "group": "com.builttoroam.devicecalendar",
+          "module": "device_calendar_release",
+          "version": {
+            "requires": "11.1"
+          }
+        },
+        {
+          "group": "co.quis.flutter_contacts",
+          "module": "flutter_creek_contacts_release",
+          "version": {
+            "requires": "11.1"
+          }
+        },
+        {
+          "group": "com.example.lz4",
+          "module": "lz4_release",
+          "version": {
+            "requires": "11.1"
+          }
+        },
+        {
+          "group": "com.boskokg.flutter_creek_blue_plus",
+          "module": "flutter_creek_blue_plus_release",
+          "version": {
+            "requires": "11.1"
+          }
+        },
+        {
+          "group": "com.example.sbc",
+          "module": "sbc_release",
+          "version": {
+            "requires": "11.1"
+          }
+        },
+        {
+          "group": "com.example.creek_sleep_stage_algorithm",
+          "module": "creek_sleep_stage_algorithm_release",
+          "version": {
+            "requires": "11.1"
+          }
+        },
+        {
+          "group": "android_generated",
+          "module": "creek_ffmpeg_kit_flutter_release",
+          "version": {
+            "requires": "11.1"
+          }
+        },
+        {
+          "group": "com.example.creek_index_convert",
+          "module": "creek_index_convert_release",
+          "version": {
+            "requires": "11.1"
+          }
+        },
+        {
+          "group": "com.creek.creek_gnss_algorithm",
+          "module": "creek_gnss_algorithm_release",
+          "version": {
+            "requires": "11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_blue_manage_release-11.1.aar",
+          "url": "creek_blue_manage_release-11.1.aar",
+          "size": 20454,
+          "sha512": "4d697dcbe867328b54d7a23dcf52e1951d2d12221055995accc3bf76061c3d914d6628addf095bc63257d112c6f5f93c3c1637b7299c0a481162c40504962768",
+          "sha256": "bafaf189256183d5cc0748da0fac4c7e3f464c532a5bed587cd3cd692541c659",
+          "sha1": "e9d6d6465009dfe21560c48af3c4a515d62c426e",
+          "md5": "ba60d3435b6a925ca4d234c737dc2e57"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_blue_manage_release-11.1-sources.jar",
+          "url": "creek_blue_manage_release-11.1-sources.jar",
+          "size": 7312,
+          "sha512": "d71154c9752a0635168beb09a25869981261d70ea9b66ce2fac390a944353f113fd7b5a4ff3f78969245a458173a67bde26a260e5c0d2739fb0e2bfb64e9adbb",
+          "sha256": "70b0f3fd8ae020c2c4ca9f86f66368790450d0c61b1d5da8eae5deb7ea6fc80e",
+          "sha1": "e1a684fafb804df0d510544c26acfdf927d7c9e4",
+          "md5": "e133c08d3ff5134787b39c1095d526f8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_blue_manage_release-11.1-javadoc.jar",
+          "url": "creek_blue_manage_release-11.1-javadoc.jar",
+          "size": 298382,
+          "sha512": "09c8f8ea323151b89dba4deb31fa66b4e8f43bb76c2034d614b000a8fe8aab0edd287cd3c19dbb8effa186822fd4fb6d1f3b6e8ca2e4c850046dfe54672f1f78",
+          "sha256": "156d1bbd338f3fd4d740c54c4fd26b57f64af4c462dffe61edca59241ed8d293",
+          "sha1": "476e4284a316d0f5b7341fffae8a6dd7436c1db9",
+          "md5": "5e4eefbfeec201c97e0306607d433e03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.creek_sleep_stage_algorithm",
+    "module": "creek_sleep_stage_algorithm_release",
+    "version": "11.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_sleep_stage_algorithm_release-11.1.aar",
+          "url": "creek_sleep_stage_algorithm_release-11.1.aar",
+          "size": 20496,
+          "sha512": "73bc0b7ef14d519536c86c7b9efde41086530af5965416be2b7a7e410dcc158eed7d903a66809eafa5c1915445600e918a571036fcfca44fdf8668163b0a9c41",
+          "sha256": "ce8ea775614d13c36f41957322343d72bafa2709f753b7eb7ffb01a520c80b15",
+          "sha1": "0cadf624846ca31dbafc74c684e2423cd9e91db8",
+          "md5": "86fb5022f861aa9ca8bc28caded6f2c1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_sleep_stage_algorithm_release-11.1.aar",
+          "url": "creek_sleep_stage_algorithm_release-11.1.aar",
+          "size": 20496,
+          "sha512": "73bc0b7ef14d519536c86c7b9efde41086530af5965416be2b7a7e410dcc158eed7d903a66809eafa5c1915445600e918a571036fcfca44fdf8668163b0a9c41",
+          "sha256": "ce8ea775614d13c36f41957322343d72bafa2709f753b7eb7ffb01a520c80b15",
+          "sha1": "0cadf624846ca31dbafc74c684e2423cd9e91db8",
+          "md5": "86fb5022f861aa9ca8bc28caded6f2c1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_sleep_stage_algorithm_release-11.1-sources.jar",
+          "url": "creek_sleep_stage_algorithm_release-11.1-sources.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_sleep_stage_algorithm_release-11.1-javadoc.jar",
+          "url": "creek_sleep_stage_algorithm_release-11.1-javadoc.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

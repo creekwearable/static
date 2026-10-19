@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.creek.creek_gnss_algorithm",
+    "module": "creek_gnss_algorithm_release",
+    "version": "11.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_gnss_algorithm_release-11.1.aar",
+          "url": "creek_gnss_algorithm_release-11.1.aar",
+          "size": 32310,
+          "sha512": "db7944f0e42f71a94d3143fb3f83947d5ba9909ed66dc5f04958d0bab1ad918e205ceec3e8d8d0e7ff4f3f8afe7da97ac1fde5fa4f4b912af5cf434c3ff43e89",
+          "sha256": "a54b6c6faea4fe4ff229c1f053c1de8f93022a00b921c41181d9d1adaf7ef8eb",
+          "sha1": "c16fc0e5abca50056d39449da0f93bc9fcf1209b",
+          "md5": "23c09a37baf5651c1172852226ae2651"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "creek_gnss_algorithm_release-11.1.aar",
+          "url": "creek_gnss_algorithm_release-11.1.aar",
+          "size": 32310,
+          "sha512": "db7944f0e42f71a94d3143fb3f83947d5ba9909ed66dc5f04958d0bab1ad918e205ceec3e8d8d0e7ff4f3f8afe7da97ac1fde5fa4f4b912af5cf434c3ff43e89",
+          "sha256": "a54b6c6faea4fe4ff229c1f053c1de8f93022a00b921c41181d9d1adaf7ef8eb",
+          "sha1": "c16fc0e5abca50056d39449da0f93bc9fcf1209b",
+          "md5": "23c09a37baf5651c1172852226ae2651"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_gnss_algorithm_release-11.1-sources.jar",
+          "url": "creek_gnss_algorithm_release-11.1-sources.jar",
+          "size": 1930,
+          "sha512": "b4f1b4b26a30e0ce823820a76c3a15c6bc63209fdc9b2158cc813432faac13b4706b40bf960941682913da453dcad7bd528a7355334942aa20db137dc557cbeb",
+          "sha256": "c058a6d79ccb1c04307ea00ad96614cff098555bcb4dabda264d10eecad821a7",
+          "sha1": "63ca2e291998310cbcbf8c02f99b20348524b86e",
+          "md5": "bfa59871906a5bb65fbb6b67a4953303"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creek_gnss_algorithm_release-11.1-javadoc.jar",
+          "url": "creek_gnss_algorithm_release-11.1-javadoc.jar",
+          "size": 260681,
+          "sha512": "5d8df6ae0e4336f18b53792d525235f0903bed7d15ceb5f7a9b4341116f1840554d7baecbe35a25a09bbd2597b79bbd6039ada404380fbc29f25e8e0607beab2",
+          "sha256": "508fac7cf7bc73c6162cb93c34aef0aac549de34cc8847d063f8dd6ad5fc74bb",
+          "sha1": "b9045909261301bdb319070049c041262445d376",
+          "md5": "9f10734bbfdbdb58bf49aaa0a0f96839"
+        }
+      ]
+    }
+  ]
+}
