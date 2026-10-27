@@ -3,11 +3,11 @@
   <groupId>creek_aar</groupId>
   <artifactId>creek_aar_release</artifactId>
   <versioning>
-    <latest>0.0.65</latest>
-    <release>0.0.65</release>
+    <latest>0.0.66</latest>
+    <release>0.0.66</release>
     <versions>
-      <version>0.0.65</version>
+      <version>0.0.66</version>
     </versions>
-    <lastUpdated>20261016105743</lastUpdated>
+    <lastUpdated>20261027145342</lastUpdated>
   </versioning>
 </metadata>
