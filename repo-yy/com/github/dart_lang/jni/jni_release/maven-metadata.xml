@@ -3,15 +3,16 @@
   <groupId>com.github.dart_lang.jni</groupId>
   <artifactId>jni_release</artifactId>
   <versioning>
-    <latest>0.0.68</latest>
-    <release>0.0.68</release>
+    <latest>0.0.69</latest>
+    <release>0.0.69</release>
     <versions>
       <version>0.0.64</version>
       <version>0.0.65</version>
       <version>0.0.66</version>
       <version>0.0.67</version>
       <version>0.0.68</version>
+      <version>0.0.69</version>
     </versions>
-    <lastUpdated>20261030034744</lastUpdated>
+    <lastUpdated>20261102102923</lastUpdated>
   </versioning>
 </metadata>
