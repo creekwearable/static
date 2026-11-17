@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.connectivity",
+    "module": "connectivity_plus_release",
+    "version": "11.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectivity_plus_release-11.4.aar",
+          "url": "connectivity_plus_release-11.4.aar",
+          "size": 8016,
+          "sha512": "cf84ac1b4a68816a4ee6be20604aa4f6ee904310ca17dbcdd4754f569fdd5d7a3cb33c4db5b11bb6397fc6456e5755c44cb65f931c0d9ce73f6988a3df7adf73",
+          "sha256": "19a7efb543627735c7ed246ec86a40bffb7a2fa496e71b5a18db1f25d91f3161",
+          "sha1": "f1db59ffab0134b6610256667ffa50b8e3d6b07f",
+          "md5": "c4b1d522f7657fe32be4379bf2737845"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-83675ed27633283e7fc296c8bca22e841224c096"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectivity_plus_release-11.4.aar",
+          "url": "connectivity_plus_release-11.4.aar",
+          "size": 8016,
+          "sha512": "cf84ac1b4a68816a4ee6be20604aa4f6ee904310ca17dbcdd4754f569fdd5d7a3cb33c4db5b11bb6397fc6456e5755c44cb65f931c0d9ce73f6988a3df7adf73",
+          "sha256": "19a7efb543627735c7ed246ec86a40bffb7a2fa496e71b5a18db1f25d91f3161",
+          "sha1": "f1db59ffab0134b6610256667ffa50b8e3d6b07f",
+          "md5": "c4b1d522f7657fe32be4379bf2737845"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "connectivity_plus_release-11.4-sources.jar",
+          "url": "connectivity_plus_release-11.4-sources.jar",
+          "size": 5664,
+          "sha512": "19721859d338c9d6ddc16f831bd3ed6a5486067b7c922ddd932a1de9cbc3e7f92f2cecc660f69133901721eb27a00fc56f10a23e108d4454f3f46be2f8013d00",
+          "sha256": "3bb4a3c6b38aaf675ddc627f114a99f0f82bddbc9ef17695a3a52f8f49463409",
+          "sha1": "888353f3984c88404771dafc428d17e96861e637",
+          "md5": "91312c213521767fcefb570c433667be"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "connectivity_plus_release-11.4-javadoc.jar",
+          "url": "connectivity_plus_release-11.4-javadoc.jar",
+          "size": 278356,
+          "sha512": "0f3d8c4105dc31bef6cad826adebd86328a980e73a666d3d010368dd260e95ab5f9bfd4ffe96c977b98c461774f3b3b98649056c76189067dba0b5bc9ca3249e",
+          "sha256": "145151bcd1752b8cf2f8c37e239396c05d7bea3eb91838a41f7fcb6250baecf6",
+          "sha1": "d08eefa51bbd9e944e4f578f7446d47dcec6865f",
+          "md5": "1a222964df04bb9f170dd8cc1199578a"
+        }
+      ]
+    }
+  ]
+}
