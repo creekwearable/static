@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boskokg.flutter_creek_blue_plus",
+    "module": "flutter_creek_blue_plus_release",
+    "version": "0.0.25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "4.0.0-rc-2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_creek_blue_plus_release-0.0.25.aar",
+          "url": "flutter_creek_blue_plus_release-0.0.25.aar",
+          "size": 219627,
+          "sha512": "a529571542c26b0ffd144b0cb522c7208e03271d058e0c92b6fc1763d169402c424de8bfd3375bd3cbaac485bee5bde45288a505ff6bcfb49cf5aba83ac206f7",
+          "sha256": "a1c2a88b8a38b591863e0d283bde253a5b3eebe70eab5b7b90a59a8d87b3994e",
+          "sha1": "c7eaed93cebe715a6034d72be28b2220c999e88a",
+          "md5": "01810aaabd1c437c77763ff4b38dc9a6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "4.0.0-rc-2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_creek_blue_plus_release-0.0.25.aar",
+          "url": "flutter_creek_blue_plus_release-0.0.25.aar",
+          "size": 219627,
+          "sha512": "a529571542c26b0ffd144b0cb522c7208e03271d058e0c92b6fc1763d169402c424de8bfd3375bd3cbaac485bee5bde45288a505ff6bcfb49cf5aba83ac206f7",
+          "sha256": "a1c2a88b8a38b591863e0d283bde253a5b3eebe70eab5b7b90a59a8d87b3994e",
+          "sha1": "c7eaed93cebe715a6034d72be28b2220c999e88a",
+          "md5": "01810aaabd1c437c77763ff4b38dc9a6"
+        }
+      ]
+    }
+  ]
+}
